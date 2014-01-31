@@ -1,1 +1,1 @@
-Sinatra application for Ballinlough Dental Services
+Sinatra application for Ballinlough Dental Care
