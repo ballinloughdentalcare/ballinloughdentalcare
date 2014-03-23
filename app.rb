@@ -1,5 +1,8 @@
 require 'sinatra'
 
 get '/' do
-  'Coming soon...'
+  haml :index
+end
+
+get '/:page.html' do
 end
