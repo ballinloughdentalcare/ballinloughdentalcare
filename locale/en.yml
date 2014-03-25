@@ -1,0 +1,17 @@
+en:
+  title: Ballinlough Dental Care
+  subtitle: Fill me in
+
+  links:
+    - - Welcome
+      - href: '/'
+        title: Welcome
+    - - About
+      - href: '/about'
+        title: About Us
+    - - Location
+      - href: '/location'
+        title: Where to find us
+    - - Prices
+      - href: '/prices'
+        title: What things cost
