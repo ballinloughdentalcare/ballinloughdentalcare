@@ -1,0 +1,62 @@
+@import "views/reset";
+@import "views/colours";
+@import url("http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Montserrat|Special+Elite|Raleway:400,700");
+
+body {
+  font-family: "Montserrat", "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: @white;
+  color: @navy;
+}
+
+header {
+  h1 {
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 230%;
+    padding: 1em 0;
+    color: @white;
+    text-shadow: 2px 2px 10px @darkblue;
+    background: @lightblue url("/logo.png") no-repeat left bottom;
+    background-size: contain;
+    @media screen and (max-width: 421px) { font-size: 200%; }
+    @media screen and (max-width: 360px) { font-size: 170%; }
+    box-shadow: 0px 0px 10px @navy;
+  }
+
+  nav {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    background-color: @offwhite;
+    box-shadow: 0px 0px 10px @darkblue;
+
+    ul {
+      display: table-row;
+      @media screen and (max-width: 400px) { display: block; }
+      li {
+        display: table-cell;
+        @media screen and (max-width: 400px) { display: block; }
+        a {
+          font-size: 150%;
+          line-height: 2em;
+          text-decoration: none;
+          display: block;
+          text-align: center;
+          @media screen and (max-width: 400px) { text-align: left; }
+        }
+        a:hover {
+          color: @darkblue;
+        }
+      }
+    }
+  }
+}
+    
+
+a {
+  color: @bluegrey;
+}
+
+article {
+  padding: 20px;
+}
