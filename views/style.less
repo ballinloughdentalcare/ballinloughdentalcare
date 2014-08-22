@@ -12,14 +12,74 @@ img {
   vertical-align: middle;
 }
 
-h1 {
-  font-family: "Gloria Hallelujah";
-  font-size: 200%;
+h1, h2, h3, h4 { font-family: "Gloria Hallelujah"; }
+h1 { font-size: 200%; }
+h2 { font-size: 150%; }
+h3 { font-size: 130%; }
+h4 { font-size: 110%; }
+
+body.index {
+  section {
+    @media screen and (min-width: 800px) { 
+      p, table, ul {
+        margin-left: 25%;
+        margin-bottom: 2em;
+      }
+      h1, h2, h3, h4, h5 {
+        float: left;
+        line-height: 1em;
+        width: 25%;
+        text-align: right;
+        box-sizing: border-box;
+        padding-right: 2em;
+      }
+    }
+  }
+
+  #services {
+    ul {
+      list-style: none;
+      li:before {
+        content: "✓";
+        color: green;
+        margin-right: 1em;
+      }
+    }
+  }
 }
 
-h2 {
-  font-family: "Gloria Hallelujah";
-  font-size: 150%;
+table {
+  tbody {
+    tr {
+      td {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+      }
+    }
+  }
+}
+
+.prices {
+  table {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    table-layout: fixed;
+    tbody {
+      tr {
+        background-color: @offwhite;
+        &:nth-child(odd) {
+          color: @offwhite;
+          background-color: fade(@lightblue, 50%);
+        }
+        td {
+          line-height: 1.5em;
+          min-height: 1.5em;
+          &:last-child { text-align: right; }
+        }
+      }
+    }
+  }
 }
 
 ul {
@@ -70,7 +130,6 @@ header {
           text-decoration: none;
           display: block;
           text-align: center;
-          @media screen and (max-width: 400px) { text-align: left; }
         }
         a:hover {
           color: @darkblue;

@@ -17,15 +17,15 @@ app = express()
 
 # Restrict access, if specified.
 if process.env.RESTRICTED_ACCESS
-  [username, password] = process.env.RESTRICTED_ACCESS.split(':')
+  [name, pass] = process.env.RESTRICTED_ACCESS.split(':')
   app.use (req, res, next) ->
-    auth = require('basic-auth')
-    { name, pass } = auth(req)
-    return next() if name == username and pass == password
+    auth = require('basic-auth')(req)
+    return next() if auth?.name == name and auth?.pass == pass
     res.statusCode = 401
     res.setHeader 'WWW-Authenticate', 'Basic realm="Restricted zone..."'
     res.end 'Unauthorized.'
 
+# Serves static files
 app.use express.static(path.join(__dirname, 'public'))
 
 app.set('port', process.env.PORT or 3000)
