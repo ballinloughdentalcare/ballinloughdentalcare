@@ -3,18 +3,22 @@ html
   head
     title Ballinlough Dental Care
     link(rel='stylesheet', href='/style.css')
-  body(class="#{page}")
+  body
     header
-      h1 Ballinlough Dental Care
+      :markdown
+        # Ballinlough Dental Care
       nav
-        ul
-          li
-            a(href='/index.html' title='Home') Welcome
-          li
-            a(href='/about.html' title='About Us') About Us
-          li
-            a(href='/location.html' title='Location') Location
-          li
-            a(href='/prices.html' title='Prices') Prices
-    article
+        :markdown
+          * [Welcome]( /index "Home page" )
+          * [About Us]( /about "About your dental care team" )
+          * [Location]( /location "Where to find us" )
+          * [Prices]( /prices "The latest price list" )
+
+    article(id="#{page}")
       block content
+
+    footer
+      :markdown
+        © 2014 Ballinlough Dental Services, all rights reserved
+      
+
