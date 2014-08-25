@@ -1,57 +1,11 @@
-@import url("http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Montserrat|Special+Elite|Raleway:400,700");
-/**
- * Global Reset of all HTML Elements
- *
- * Resetting all of our HTML Elements ensures a smoother
- * visual transition between browsers. If you don't believe me,
- * try temporarily commenting out this block of code, then go
- * and look at Mozilla versus Safari, both good browsers with
- * a good implementation of CSS. The thing is, all browser CSS
- * defaults are different and at the end of the day if visual
- * consistency is what we're shooting for, then we need to
- * make sure we're resetting all spacing elements.
- *
- */
+@import url("http://fonts.googleapis.com/css?family=Montserrat|Special+Elite|Raleway:400,700");
 html,
-body {
-  border: 0;
-  font-family: "Helvetica-Neue", "Helvetica", Arial, sans-serif;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
-}
+body,
 div,
 span,
+applet,
 object,
 iframe,
-img,
-table,
-caption,
-thead,
-tbody,
-tfoot,
-tr,
-tr,
-td,
-article,
-aside,
-canvas,
-details,
-figure,
-hgroup,
-menu,
-nav,
-footer,
-header,
-section,
-summary,
-mark,
-audio,
-video {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
 h1,
 h2,
 h3,
@@ -63,22 +17,27 @@ blockquote,
 pre,
 a,
 abbr,
+acronym,
 address,
-cit,
+big,
+cite,
 code,
 del,
 dfn,
 em,
+img,
 ins,
+kbd,
 q,
+s,
 samp,
 small,
+strike,
 strong,
 sub,
 sup,
-b,
-i,
-hr,
+tt,
+var,
 dl,
 dt,
 dd,
@@ -86,48 +45,54 @@ ol,
 ul,
 li,
 fieldset,
+form,
+label,
 legend,
-label {
-  border: 0;
-  font-size: 100%;
-  vertical-align: baseline;
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
   margin: 0;
   padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
-article,
-aside,
-canvas,
-figure,
-figure img,
-figcaption,
-hgroup,
-footer,
-header,
-nav,
-section,
-audio,
-video {
-  display: block;
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
 }
 table {
   border-collapse: separate;
   border-spacing: 0;
+  vertical-align: middle;
 }
-table caption,
-table th,
-table td {
+caption,
+th,
+td {
   text-align: left;
+  font-weight: normal;
   vertical-align: middle;
 }
 a img {
-  border: 0;
-}
-:focus {
-  outline: 0;
+  border: none;
 }
 body {
   font-family: "Montserrat", "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #ffffff;
+  background-color: #fff;
   color: #1b2153;
 }
 img {
@@ -137,7 +102,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Gloria Hallelujah";
+  font-family: "Montserrat";
 }
 h1 {
   font-size: 200%;
@@ -152,7 +117,13 @@ h4 {
   font-size: 110%;
 }
 #index {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), #ffffff), url(/practice1.png) left top no-repeat;
+  background: -webkit-linear-gradient(fade((#fff), 90%), #fff), url("/practice3.png") left top no-repeat;
+  background: -moz-linear-gradient(fade((#fff), 90%), #fff), url("/practice3.png") left top no-repeat;
+  background: -o-linear-gradient(fade((#fff), 90%), #fff), url("/practice3.png") left top no-repeat;
+  background: -ms-linear-gradient(fade((#fff), 90%), #fff), url("/practice3.png") left top no-repeat;
+  background: linear-gradient(fade((#fff), 90%), #fff), url("/practice3.png") left top no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
 }
 @media screen and (min-width: 800px) {
@@ -171,6 +142,8 @@ h4 {
     line-height: 1em;
     width: 25%;
     text-align: right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding-right: 2em;
   }
@@ -180,7 +153,7 @@ h4 {
 }
 #index #services ul li:before {
   content: "✓";
-  color: green;
+  color: #008000;
   margin-right: 1em;
 }
 footer {
@@ -195,17 +168,22 @@ table tbody tr td {
   padding-right: 0.5em;
 }
 #prices table {
-  width: 80%;
+  width: 100%;
   max-width: 800px;
   margin: auto;
   table-layout: fixed;
+}
+@media screen and (min-width: 800px) {
+  #prices table {
+    width: 80%;
+  }
 }
 #prices table tbody tr {
   background-color: #fefefc;
 }
 #prices table tbody tr:nth-child(odd) {
   color: #fefefc;
-  background-color: rgba(32, 64, 149, 0.5);
+  background-color: fade(#204095, 50%);
 }
 #prices table tbody tr td {
   line-height: 1.5em;
@@ -230,10 +208,13 @@ header h1 {
   font-family: "Raleway";
   font-size: 230%;
   padding: 1em 0;
-  color: #ffffff;
+  color: #fff;
   text-shadow: 2px 2px 10px #1e2158;
   background: #204095 url("/logo.png") no-repeat left bottom;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
   background-size: contain;
+  -webkit-box-shadow: 0px 0px 10px #1b2153;
   box-shadow: 0px 0px 10px #1b2153;
 }
 @media screen and (max-width: 500px) {
@@ -254,6 +235,7 @@ header nav {
   table-layout: fixed;
   width: 100%;
   background-color: #fefefc;
+  -webkit-box-shadow: 0px 0px 10px #1e2158;
   box-shadow: 0px 0px 10px #1e2158;
 }
 header nav ul {

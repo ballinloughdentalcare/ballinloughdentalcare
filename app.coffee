@@ -1,8 +1,10 @@
 # Dead simple static website.
-http = require('http')
 path = require('path')
+jade = require('jade')
 express = require('express')
 marked = require('marked')
+stylus = require('stylus')
+nib = require('nib')
 
 # Set up Redis (using Redis To Go) properly
 redis = require('redis')
@@ -25,13 +27,22 @@ if process.env.RESTRICTED_ACCESS
     res.setHeader 'WWW-Authenticate', 'Basic realm="Restricted zone..."'
     res.end 'Unauthorized.'
 
+PUBLIC = path.join(__dirname, 'public')
+
+# Serve Stylus stylesheets
+app.use stylus.middleware
+  src: app.get('views')
+  dest: PUBLIC
+  compile: (str, path) ->
+    stylus(str).set('filename', path).use(nib()).import('nib')
+
 # Serves static files
-app.use express.static(path.join(__dirname, 'public'))
+app.use express.static(PUBLIC)
 
 app.set('port', process.env.PORT or 3000)
 app.set('view engine', 'jade')
 
-app.get '/', (req, res) -> res.render('index')
 app.get '/edit', (req, res) -> res.render('edit')
+app.get /^\/([^.]+)(\.html)?/, (req, res) -> res.render(req.params[0])
 
 app.listen(process.env.PORT or 3000)
