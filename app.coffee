@@ -34,7 +34,7 @@ app.use stylus.middleware
   src: app.get('views')
   dest: PUBLIC
   compile: (str, path) ->
-    stylus(str).set('filename', path).use(nib()).import('nib')
+    stylus(str).set('filename', path).use(nib())
 
 # Serves static files
 app.use express.static(PUBLIC)
@@ -43,6 +43,9 @@ app.set('port', process.env.PORT or 3000)
 app.set('view engine', 'jade')
 
 app.get '/edit', (req, res) -> res.render('edit')
-app.get /^\/([^.]+)(\.html)?/, (req, res) -> res.render(req.params[0])
+app.get /^\/([^.]+)?(?:\.html)?/, (req, res) ->
+  page = req.params[0] or 'index'
+  res.render page,
+    page: page
 
 app.listen(process.env.PORT or 3000)

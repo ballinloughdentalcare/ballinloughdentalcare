@@ -95,6 +95,10 @@ body {
   background-color: #fff;
   color: #1b2153;
 }
+p {
+  line-height: 1.4em;
+  margin: 1em auto;
+}
 img {
   vertical-align: middle;
 }
