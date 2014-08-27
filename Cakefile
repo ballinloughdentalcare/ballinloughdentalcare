@@ -1,6 +1,9 @@
+# Simple Cakefile for building ballinloughdentalcare
 fs = require('fs')
 jade = require('jade')
-less = require('less')
+stylus = require('stylus')
+nib = require('nib')
+marked = require('marked')
 
 PAGES = ['index', 'about', 'location', 'prices']
 
@@ -12,13 +15,20 @@ task 'clean', 'Remove the HTML files', ->
   fs.unlink("public/#{page}.html") for page in PAGES
   fs.unlink("public/style.css")
 
-html = (f) ->
-  fn = jade.compileFile("views/#{f}.jade")
-  fs.writeFile "public/#{f}.html", fn(page: f), (err) -> throw err if err
+layout = jade.compileFile "views/layout.jade", pretty: true
 
-css = (f) ->
-  fs.readFile "views/#{f}.less", {encoding: 'utf8'}, (err, data) ->
-    throw err if err
-    less.render data, (err, result) ->
+# Compiles a HTML file from markdown using layout.jade
+html = (page) ->
+  fs.readFile "views/#{page}.md", 'utf8', (err, data) ->
+    html = marked(data)
+    result = layout(page: page, html: html)
+    fs.writeFile "public/#{page}.html", result, (err) ->
       throw err if err
-      fs.writeFile "public/#{f}.css", result, (err) -> throw err if err
+
+# Compiles the style.css file from style.styl
+css = (f) ->
+  fs.readFile "views/#{f}.styl", 'utf8', (err, data) ->
+    throw err if err
+    stylus(data).use(nib()).render (err, css) ->
+      fs.writeFile "public/#{f}.css", css, (err) ->
+        throw err if err

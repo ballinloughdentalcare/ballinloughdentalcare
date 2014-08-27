@@ -3,19 +3,19 @@ html
   head
     title Ballinlough Dental Care
     link(rel='stylesheet', href='/style.css')
-  body(class="#{page}")
+  body
     header
       :markdown
         # Ballinlough Dental Care
       nav
         :markdown
-          * [Welcome]( /index "Home page" )
-          * [About Us]( /about "About your dental care team" )
-          * [Location]( /location "Where to find us" )
-          * [Prices]( /prices "The latest price list" )
+          * [Welcome]( /index.html "Home page" )
+          * [About Us]( /about.html "About your dental care team" )
+          * [Location]( /location.html "Where to find us" )
+          * [Prices]( /prices.html "The latest price list" )
 
     article(id="#{page}")
-      block content
+      |!{html}
 
     footer
       :markdown
