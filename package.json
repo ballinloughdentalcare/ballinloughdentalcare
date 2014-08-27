@@ -18,5 +18,11 @@
     "nib": "^1.0.3",
     "redis": "^0.12.1",
     "stylus": "^0.48.1"
+  },
+  "devDependencies": {
+    "node-dev": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node_modules/node-dev/bin/node-dev app.coffee"
   }
 }
