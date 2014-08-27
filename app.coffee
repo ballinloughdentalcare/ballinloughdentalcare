@@ -49,8 +49,8 @@ else
 if process.env.RESTRICTED_ACCESS
   [name, pass] = process.env.RESTRICTED_ACCESS.split(':')
   app.use (req, res, next) ->
-    auth = auth(req)
-    return next() if auth?.name == name and auth?.pass == pass
+    credentials = auth(req)
+    return next() if credentials?.name == name and credentials?.pass == pass
     res.statusCode = 401
     res.setHeader 'WWW-Authenticate', 'Basic realm="Restricted zone..."'
     res.end 'Unauthorized.'
