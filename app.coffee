@@ -7,7 +7,7 @@ SITE = 'ballinloughdentalcare'
 
 path = require('path')
 express = require('express')
-auth = require('basic-auth')
+basicAuth = require('basic-auth')
 redis = require('redis')
 fs = require('fs')
 marked = require('marked')
@@ -49,7 +49,7 @@ else
 if process.env.RESTRICTED_ACCESS
   [name, pass] = process.env.RESTRICTED_ACCESS.split(':')
   app.use (req, res, next) ->
-    credentials = auth(req)
+    credentials = basicAuth(req)
     return next() if credentials?.name == name and credentials?.pass == pass
     res.statusCode = 401
     res.setHeader 'WWW-Authenticate', 'Basic realm="Restricted zone..."'
