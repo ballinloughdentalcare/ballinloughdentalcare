@@ -1,6 +1,6 @@
 # About Us
 
-Padraig Twomey is a native of Ballincollig, Co. Cork and is married to
+Diarmuid Twomey is a native of Ballincollig, Co. Cork and is married to
 Carmel.  They have three children.  He graduated from University College
 Cork in 1992 with an honours degree, including a first class honours grade
 in Paediatric and Preventative Dentistry and it has remained an area of
