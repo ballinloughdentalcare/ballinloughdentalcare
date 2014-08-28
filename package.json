@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "./node_modules/coffee-script/bin/coffee app.coffee",
-    "setup": "./node_modules/coffee-script/bin/cake setup"
+    "start": "node_modules/node-dev/bin/node-dev app.coffee"
   },
   "engines": {
     "node": "0.10.x"
@@ -20,9 +19,7 @@
     "stylus": "^0.48.1"
   },
   "devDependencies": {
+    "html2jade": "^0.7.8",
     "node-dev": "^2.3.0"
-  },
-  "scripts": {
-    "start": "node_modules/node-dev/bin/node-dev app.coffee"
   }
 }
