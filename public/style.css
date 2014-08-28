@@ -100,6 +100,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 12pt;
   background: #fff;
+  color: #6e6e6e;
 }
 @media screen and (min-width: 720px) {
   body {
@@ -116,6 +117,20 @@ body {
     font-size: 16pt;
   }
 }
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  color: #5b5b5b;
+}
+p {
+  text-align: center;
+}
+p img {
+  vertical-align: middle;
+}
 header {
   background-image: url("top-1280.svg"), url("overlay.png"), url("header.jpg");
   -webkit-background-size: 1280px 184px, auto, cover;
@@ -128,12 +143,25 @@ header {
   position: relative;
   text-align: center;
 }
+@media screen and (min-width: 1280px) {
+  header {
+    background-image: url("top-1600.svg"), url("overlay.png"), url("header.jpg");
+    -webkit-background-size: 1600px 184px, auto, cover;
+    -moz-background-size: 1600px 184px, auto, cover;
+    background-size: 1600px 184px, auto, cover;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header {
+    background-image: url("top-3200.svg"), url("overlay.png"), url("header.jpg");
+    -webkit-background-size: 3200px 460px, auto, cover;
+    -moz-background-size: 3200px 460px, auto, cover;
+    background-size: 3200px 460px, auto, cover;
+  }
+}
 header h1 {
   font-size: 1.25em;
   color: #fff;
-  font-weight: 700;
-  letter-spacing: 0.125em;
-  text-transform: uppercase;
   text-align: center;
   margin-bottom: 1em;
 }
@@ -168,4 +196,158 @@ header h1:before {
 header p {
   line-height: 1.65em;
   margin: 0.25em 0 0 0;
+}
+h2 {
+  text-align: center;
+}
+h2:before {
+  display: block;
+  content: '';
+  height: 0.25em;
+  margin: 1em;
+  border-top: 1px solid rgba(224,224,224,0.75);
+  border-bottom: 1px solid rgba(224,224,224,0.75);
+}
+h2:after {
+  display: block;
+  content: '';
+  margin: 1em;
+  height: 0.25em;
+  border-top: 1px solid rgba(224,224,224,0.75);
+  border-bottom: 1px solid rgba(224,224,224,0.75);
+}
+#dental-services-provided+ul {
+  width: 100% !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#dental-services-provided+ul li {
+  padding: 15em 1em 1em 1em;
+  margin: 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  border: 1px solid rgba(214,214,214,0.75);
+  text-align: center;
+  position: relative;
+}
+#dental-services-provided+ul li:before {
+  content: '';
+  background-color: #e0e0e0;
+  height: 15em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+#dental-services-provided+ul li h3 {
+  margin-top: 1em;
+}
+@media screen and (min-width: 640px) {
+  #dental-services-provided+ul li {
+    border: none;
+    height: 15em;
+    padding-top: 1em;
+    padding-left: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  #dental-services-provided+ul li:before {
+    width: 50%;
+  }
+  #dental-services-provided+ul li:nth-child(even) {
+    padding-left: 1em;
+    padding-right: 50%;
+  }
+  #dental-services-provided+ul li:nth-child(even):before {
+    left: auto;
+    right: 0;
+  }
+}
+#dental-services-provided+ul li:nth-of-type(1):before {
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/d/df/Family_Portrait.jpg");
+}
+#dental-services-provided+ul li:nth-of-type(2):before {
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/9/9f/US_Navy_110416-F-HS649-112_Royal_Australian_navy_dentist_Lt._Shannon_Godfrey_uses_anesthesia_on_a_Tongan_woman_before_extracting_a_tooth_during_Pac.jpg");
+}
+#dental-services-provided+ul li:nth-of-type(3):before {
+  background-image: url("http://www.dentistryonsheppard.com/img/smiles/cosmetic-veneers-172-177.jpg");
+}
+#dental-services-provided+ul li:nth-of-type(4):before {
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/0/00/Crown_dentistry_gold_03_lateral.jpg");
+}
+#dental-services-provided+ul li:nth-of-type(5):before {
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/b/b3/Root_canal_on_a_patient.jpg");
+}
+#dental-services-provided+ul li:nth-of-type(6):before {
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/c/cd/Dentist.2.jpg");
+}
+#dental-services-provided+ul li:nth-of-type(7):before {
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/2/28/Tooth_polishing_9332.JPG");
+}
+#dental-services-provided+ul li:nth-of-type(8):before {
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/3/3c/Ca_in_situ,_cervix.jpg");
+}
+#dental-services-provided+ul li:nth-of-type(9):before {
+  background-image: url("http://www.northernsound.ie/wp-content/uploads/2014/02/medical-cards.jpg");
+}
+#opening-hours+table {
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 1em;
+}
+#opening-hours+table td:first-child {
+  text-align: right;
+  padding-right: 1em;
+  font-weight: 700;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  color: #5b5b5b;
+}
+#opening-hours+table td:last-child {
+  padding-left: 1em;
+  text-align: left;
+}
+#prices+p a[href='/prices.pdf'] {
+  font-weight: 700;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  color: #5b5b5b;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: #544d55;
+  color: #fff;
+  font-size: 0.9em;
+  padding: 0 1.5em;
+  text-decoration: none;
+  min-width: 15em;
+  line-height: 3.25em;
+  display: inline-block;
+  -webkit-transition: color 0.3s linear, background-color 0.3s linear;
+  -moz-transition: color 0.3s linear, background-color 0.3s linear;
+  -o-transition: color 0.3s linear, background-color 0.3s linear;
+  -ms-transition: color 0.3s linear, background-color 0.3s linear;
+  transition: color 0.3s linear, background-color 0.3s linear;
+  margin: 1em;
+}
+#prices+p a[href='/prices.pdf']:hover {
+  color: #544d55;
+  background-color: #e0e0e0;
+}
+footer {
+  margin-top: 1em;
+  padding: 1em;
+  font-size: 0.75em;
+  background-color: #e0e0e0;
+  background-image: url("overlay.png");
+  color: #fff;
 }
