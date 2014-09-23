@@ -12,7 +12,6 @@ members of the family...
 * Crowns and bridgework
 * Endodontic/Root canal treatment.
 * Treatment of periodontal /gum disease
-* Oral surgery
 * Oral cancer screening
 * Medical card holders welcome
 
