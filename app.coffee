@@ -47,6 +47,7 @@ else
 
 # Restrict access, if specified.
 if process.env.RESTRICTED_ACCESS
+  console.log "RESTRICTED ACCESS!"
   [name, pass] = process.env.RESTRICTED_ACCESS.split(':')
   app.use (req, res, next) ->
     credentials = basicAuth(req)
