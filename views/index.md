@@ -1,6 +1,6 @@
 # Welcome
 
-W=Looking after the dental health of the people of Ballinlough and its surrounding areas for over 30 years...
+Looking after the dental health of the people of Ballinlough and its surrounding areas for over 30 years
   
 ## Dental Services Provided
 
