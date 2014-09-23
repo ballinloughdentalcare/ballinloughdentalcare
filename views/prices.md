@@ -26,8 +26,8 @@
 
 |                                   |             |
 |-----------------------------------|-------------|
-| Anterior                          | €350        |
-| Premolar                          | €450        |
+| Emergency Anterior                | €75        |
+| Emergency Posterior               | €100        |
 
 ## Dentures
 
@@ -38,6 +38,7 @@
 | Full upper and lower              | €950        |
 | Full upper or lower               | €500        |
 | Denture repairs                   | €80         |
+| Denture Reline                    | €160
 
 ## Crown & Bridgework
 
@@ -48,7 +49,8 @@
 | ... for post & core, add          | €100        |
 | Bridge (per tooth)                | €650        |
 | Veneers                           | €500        |
-| Recement crown                    | €80         |
+| Recement crown                    | €60         |
+| Recent bridge (per unit)          | €60         |
 
 |                                   |             |
 |-----------------------------------|-------------|
