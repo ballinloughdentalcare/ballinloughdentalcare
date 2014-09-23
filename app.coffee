@@ -46,7 +46,7 @@ else
   redis = redis.createClient()
 
 # Restrict access, if specified.
-if process.env.RESTRICTED_ACCESS
+if process.env.RESTRICTED_ACCESS and false
   console.log "RESTRICTED ACCESS!"
   [name, pass] = process.env.RESTRICTED_ACCESS.split(':')
   app.use (req, res, next) ->
