@@ -4,16 +4,11 @@ Looking after the dental health of the people of Ballinlough and its surrounding
   
 ## Dental Services Provided
 
-* Family and Children’s Dental Care with an emphasis on prevention.
-* General Dentistry including cleanings/ scale and polish, fillings
-  and dentures.
-* Cosmetic Dentistry including dental veneers and tooth whitening
-* Crowns and bridgework
-* Endodontic/Root canal treatment.
-* Treatment of periodontal /gum disease
-* Oral cancer screening
-* Medical card holders welcome
-
+* About Us
+* Treatments
+* Fees
+* Contact Us
+* 
 ## Opening Hours
 
 |             |                   |
