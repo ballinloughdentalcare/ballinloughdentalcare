@@ -21,9 +21,9 @@ members of the family...
 |-------------|------------------:|
 | Monday      |  9am –  6pm |
 | Tuesday     |  9am –  6pm |
-| Wednesday   |  9am    –  8pm |
-| Thursday    |  9am    –  7.30pm |
-| Friday      |  9.30am –  5.30pm |
-| Saturday    |  9.30am – 12.30pm |
+| Wednesday   |  9am –  8pm |
+| Thursday    |  9am –  8pm |
+| Friday      |  9am –  6pm |
+| Saturday    |  10am – 2pm |
 
 We accept ![All credit cards](/creditcards.png)
