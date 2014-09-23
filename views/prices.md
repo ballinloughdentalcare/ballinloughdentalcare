@@ -7,7 +7,7 @@
 | Exam, Scale & Polish              | €80         |
 | Prescription only                 | €25         |
 | Consultation (including x-ray)    | €30         |
-| Prolonged Gum Treatment (per quadrant) | €50    |
+| Prolonged Gum Treatment with L.A. (per quadrant) | €50    |
 
 ## Fillings
 
@@ -35,9 +35,9 @@
 |                                   |             |
 |-----------------------------------|-------------|
 | Partial Acrylic                   | €350 – €450 |
-| Chrome denture                    | €950        |
-| Full upper and lower              | €950        |
-| Full upper or lower               | €500        |
+| Chrome Denture                    | €950        |
+| Full Upper and Lower              | €950        |
+| Full Upper or Lower               | €500        |
 | Denture Repairs/Additions         | €80         |
 | Denture Reline                    | €160
 
@@ -51,7 +51,7 @@
 | Bridge (per tooth)                | €650        |
 | Veneers                           | €500        |
 | Recement crown                    | €60         |
-| Recement bridge (per unit)        | €60         |
+| Recement bridge (per tooth)       | €60         |
 
 |                                   |             |
 |-----------------------------------|-------------|
@@ -63,7 +63,7 @@
 
 |                                   |             |
 |-----------------------------------|-------------|
-| Exam under 5                      | €0 (free)   |
+| Exam under 5                      | Free   |
 | Exam under 16                     | €30         |
 | Scale and polish under 16         | €20         |
 | Baby tooth extraction or filling  | €50         |
