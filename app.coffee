@@ -50,7 +50,7 @@ if process.env.RESTRICTED_ACCESS
   [name, pass] = process.env.RESTRICTED_ACCESS.split(':')
   app.use (req, res, next) ->
     credentials = basicAuth(req)
-    console.log "#{credentials.name} == #{name}, @{credentials.pass} == #{pass}"
+    console.log "`#{credentials.name}` == `#{name}`, `#{credentials.pass}` == `#{pass}`"
     return next() if credentials?.name == name and credentials?.pass == pass
     res.statusCode = 401
     res.setHeader 'WWW-Authenticate', 'Basic realm="Restricted zone..."'
