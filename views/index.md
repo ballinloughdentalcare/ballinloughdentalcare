@@ -1,7 +1,6 @@
 # Welcome
 
-We are a dental practice in Ballinlough who provide dental care to all
-members of the family...
+W=Looking after the dental health of the people of Ballinlough and its surrounding areas for over 30 years...
   
 ## Dental Services Provided
 
