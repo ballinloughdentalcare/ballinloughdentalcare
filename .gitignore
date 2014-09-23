@@ -1,2 +1,5 @@
+.sw?
 .*.sw?
 .DS_Store
+public/style.css
+public/*.html
