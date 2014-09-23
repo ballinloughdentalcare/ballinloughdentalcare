@@ -70,8 +70,9 @@ fs.readdir 'views', (err, files) ->
 renderPage = (req, res) ->
   page = req.params.page || 'index'
   page += ".html" unless page.match(/\.html$/)
+  name = page.split(/\./)[0]
   if html = pages[page]
-    res.render('layout', html: html)
+    res.render(name)
   else
     console.error "404: `#{page}`"
     res.statusCode = 404
