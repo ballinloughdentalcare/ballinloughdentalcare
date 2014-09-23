@@ -6,7 +6,8 @@
 | Scale & Polish                    | €50         |
 | Exam, Scale & Polish              | €80         |
 | Prescription only                 | €25         |
-| X-Ray only                        | €20         |
+| Consultation (including x-ray)    | €30         |
+| Prolonged Gum Treatment (per quadrant) | €50    |
 
 ## Fillings
 
@@ -26,7 +27,7 @@
 
 |                                   |             |
 |-----------------------------------|-------------|
-| Emergency Anterior                | €75        |
+| Emergency Anterior                | €75         |
 | Emergency Posterior               | €100        |
 
 ## Dentures
@@ -37,7 +38,7 @@
 | Chrome denture                    | €950        |
 | Full upper and lower              | €950        |
 | Full upper or lower               | €500        |
-| Denture repairs                   | €80         |
+| Denture Repairs/Additions         | €80         |
 | Denture Reline                    | €160
 
 ## Crown & Bridgework
@@ -50,7 +51,7 @@
 | Bridge (per tooth)                | €650        |
 | Veneers                           | €500        |
 | Recement crown                    | €60         |
-| Recent bridge (per unit)          | €60         |
+| Recement bridge (per unit)        | €60         |
 
 |                                   |             |
 |-----------------------------------|-------------|
