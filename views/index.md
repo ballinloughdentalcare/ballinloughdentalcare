@@ -1,18 +1,12 @@
 # Welcome
 
-Looking after the dental health of the people of Ballinlough and its surrounding areas for over 30 years
-  
-## Dental Services Provided
-
 * About Us
 * Treatments
 * Fees
 * Contact Us
-* 
+
 ## Opening Hours
 
-|             |                   |
-|-------------|------------------:|
 | Monday      |  9am –  6pm |
 | Tuesday     |  9am –  6pm |
 | Wednesday   |  9am –  8pm |
