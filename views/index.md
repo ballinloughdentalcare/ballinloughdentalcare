@@ -1,4 +1,4 @@
-# Welcome
+## Welcome
 
 * About Us
 * Treatments
@@ -7,6 +7,8 @@
 
 ## Opening Hours
 
+|             |             |
+|-------------|------------:|
 | Monday      |  9am –  6pm |
 | Tuesday     |  9am –  6pm |
 | Wednesday   |  9am –  8pm |
