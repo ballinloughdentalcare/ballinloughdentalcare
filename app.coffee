@@ -50,34 +50,17 @@ if process.env.RESTRICTED_ACCESS
   [name, pass] = process.env.RESTRICTED_ACCESS.split(':')
   app.use (req, res, next) ->
     credentials = basicAuth(req)
-    console.log "`#{credentials.name}` == `#{name}`, `#{credentials.pass}` == `#{pass}`"
     return next() if credentials?.name == name and credentials?.pass == pass
     res.statusCode = 401
     res.setHeader 'WWW-Authenticate', 'Basic realm="Restricted zone..."'
     res.end 'Unauthorized.'
 
-# Reads the pages into memory
-pages = {}
-fs.readdir 'views', (err, files) ->
-  files.forEach (file) ->
-    if file.match /\.md$/
-      fs.readFile path.join('views', file), 'utf8', (err, data) ->
-        console.error("Error reading markdown: #{err.message}") if err?
-        page = file.replace(/\.md/, '.html')
-        pages[page] = marked(data)
-
 # Function to render a page from memory - should only be called if the static
 # page doesn't exist.
 renderPage = (req, res) ->
   page = req.params.page || 'index'
-  page += ".html" unless page.match(/\.html$/)
-  name = page.split(/\./)[0]
-  if html = pages[page]
-    res.render(name)
-  else
-    console.error "404: `#{page}`"
-    res.statusCode = 404
-    res.render('404')
+  page = page.replace(/\.html/, '')
+  res.render(page)
 
 app.get '/:page', renderPage
 app.get '/', renderPage
