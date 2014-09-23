@@ -20,10 +20,10 @@ members of the family...
 
 |             |                   |
 |-------------|------------------:|
-| Monday      |  9.30am –  5.30pm |
-| Tuesday     |  9.30am –  5.30pm |
-| Wednesday   |  2pm    –  7.30pm |
-| Thursday    |  2pm    –  7.30pm |
+| Monday      |  9am –  6pm |
+| Tuesday     |  9am –  6pm |
+| Wednesday   |  9am    –  8pm |
+| Thursday    |  9am    –  7.30pm |
 | Friday      |  9.30am –  5.30pm |
 | Saturday    |  9.30am – 12.30pm |
 
