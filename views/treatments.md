@@ -8,6 +8,21 @@ General dentists provide services related to the general maintenance of oral hyg
 
 Ideally, dentistry is preventative. We recommend that you visit your dentist regularly – at least once every six months – to ensure proper oral hygiene and functionality. Regular checkups and oral health maintenance prevent the development of serious dental problems that can require costly treatment. If you remain vigilant and visit your dentist regularly, you can enjoy exceptional dental health.
 
+Restorative Dentistry
+ 
+Restoration is a term used in dentistry to describe restoring the function of the tooth by replacing missing or damaged tooth structure. Restorations are classified as either:
+
+    Direct- The restoration is fabricated, or made inside the mouth, ie. composite or amalgam fillings.
+
+    Indirect- The restoration is made outside of the mouth, ie. crowns, bridges, implants, inlays, onlays. Common           materials used are gold, porcelain, and zirconia.
+    
+      Crown & Bridgework
+    
+      Dental Crowns: Whether a crown is needed for tooth cracks, excessive tooth decay, damaged tooth protection, teeth       grinding, missing teeth, need for beautification or an improper bite resulting from the natural wear and tear           produced by aging, dental crowns of today can satisfy your functional and aesthetic needs. The purpose of a dental       crown is to encompass and protect a needy tooth with a custom-designed tooth material, much like a fitted cap.  
+
+      Dental Bridges: Dental bridges are used to replace missing teeth that would otherwise adversely affect your mouth.       The negative effects of one or more missing teeth can include the shifting of other teeth to accommodate for the        open space, a change in the bite that may affect your ability to eat, a speech impediment, and an increased risk        for periodontal disease and tooth decay.
+
+
 Cosmetic Dentistry
 
 While traditional dentistry focuses on oral hygiene and preventing, diagnosing and treating oral disease, cosmetic dentistry focuses on improving the appearance of a person's teeth, mouth and smile. In other words general dentistry addresses dental problems that require necessary treatment, whereas cosmetic dentistry provides elective – or desired – treatments or services.
@@ -16,17 +31,12 @@ Cosmetic dentistry may also provide restorative benefits. For example, dental fi
 
 Today, dental fillings may fall into the category of cosmetic dentistry, because you can select fillings made of porcelain or composite materials that closely match the colour of your teeth, thus maintaining the natural appearance of your teeth and smile. 
 
-  Composite Bonding: Chipped, broken, discoloured or decayed teeth may be repaired or have their appearance corrected     using a procedure called composite bonding. A dental composite material with the look of enamel and dentin is applied   into the cavity or onto the surface of a tooth, where it is then sculpted into shape, contoured and hardened with a     high-intensity light. The result is a restoration that blends with the remainder of the surrounding tooth structure     and the rest of your natural teeth to create a healthy, bright smile.
+    Composite Bonding: Chipped, broken, discoloured or decayed teeth may be repaired or have their appearance corrected     using a procedure called composite bonding. A dental composite material with the look of enamel and dentin is           applied into the cavity or onto the surface of a tooth, where it is then sculpted into shape, contoured and             hardened with a high-intensity light. The result is a restoration that blends with the remainder of the surrounding     tooth structure and the rest of your natural teeth to create a healthy, bright smile.
 
-  Teeth Whitening: Teeth whitening is perhaps the most commonly recommended cosmetic dentistry procedure. Teeth are       often stained from smoking, food, drink (coffee, tea or red wine) or poor oral hygiene. Bleaching the teeth can         enhance the appearance of your smile.
+    Teeth Whitening: Teeth whitening is perhaps the most commonly recommended cosmetic dentistry procedure. Teeth are       often stained from smoking, food, drink (coffee, tea or red wine) or poor oral hygiene. Bleaching the teeth can         enhance the appearance of your smile.
 
-  Dental Veneers: Composite or porcelain laminates that are adhesively bonded to the surface of a tooth to correct and    repair chips and cracks will improve a worn appearance or severe tooth discolouration.
+    Dental Veneers: Composite or porcelain laminates that are adhesively bonded to the surface of a tooth to correct and     repair chips and cracks will improve a worn appearance or severe tooth discolouration.
   
-Crown & Bridgework
-
-Dental Crowns: Whether a crown is needed for tooth cracks, excessive tooth decay, damaged tooth protection, teeth grinding, missing teeth, need for beautification or an improper bite resulting from the natural wear and tear produced by aging, dental crowns of today can satisfy your functional and aesthetic needs. The purpose of a dental crown is to encompass and protect a needy tooth with a custom-designed tooth material, much like a fitted cap.
-
-Dental Bridges: Dental bridges are used to replace missing teeth that would otherwise adversely affect your mouth. The negative effects of one or more missing teeth can include the shifting of other teeth to accommodate for the open space, a change in the bite that may affect your ability to eat, a speech impediment, and an increased risk for periodontal disease and tooth decay.
 
 
 
