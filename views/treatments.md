@@ -21,6 +21,13 @@ Today, dental fillings may fall into the category of cosmetic dentistry, because
   Teeth Whitening: Teeth whitening is perhaps the most commonly recommended cosmetic dentistry procedure. Teeth are       often stained from smoking, food, drink (coffee, tea or red wine) or poor oral hygiene. Bleaching the teeth can         enhance the appearance of your smile.
 
   Dental Veneers: Composite or porcelain laminates that are adhesively bonded to the surface of a tooth to correct and    repair chips and cracks will improve a worn appearance or severe tooth discolouration.
+  
+Crown & Bridgework
+
+Dental Crowns: Whether a crown is needed for tooth cracks, excessive tooth decay, damaged tooth protection, teeth grinding, missing teeth, need for beautification or an improper bite resulting from the natural wear and tear produced by aging, dental crowns of today can satisfy your functional and aesthetic needs. The purpose of a dental crown is to encompass and protect a needy tooth with a custom-designed tooth material, much like a fitted cap.
+
+Dental Bridges: Dental bridges are used to replace missing teeth that would otherwise adversely affect your mouth. The negative effects of one or more missing teeth can include the shifting of other teeth to accommodate for the open space, a change in the bite that may affect your ability to eat, a speech impediment, and an increased risk for periodontal disease and tooth decay.
+
 
 
 
