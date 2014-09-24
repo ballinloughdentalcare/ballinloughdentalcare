@@ -8,6 +8,17 @@ General dentists provide services related to the general maintenance of oral hyg
 
 Ideally, dentistry is preventative. We recommend that you visit your dentist regularly – at least once every six months – to ensure proper oral hygiene and functionality. Regular checkups and oral health maintenance prevent the development of serious dental problems that can require costly treatment. If you remain vigilant and visit your dentist regularly, you can enjoy exceptional dental health.
 
+Gum Treatment (Cleaning and Scaling)
+
+Gingivitis is a chronic inflammation of the gum tissue (gingiva). Typically associated with poor oral hygiene, gingivitis is the early stage periodontitis. Many people are not even be aware that they have gingivitis, because it is usually not painful.
+Periodontitis is an inflammatory condition affecting the tissues surrounding a tooth, and is the leading cause of tooth loss. There are a number of causes of gum disease, each of which can be corrected and controlled.
+
+Gum Treatments: There are a number of treatments available for gum disease sufferers, each of which varies depending on the severity of the condition. In order to determine the treatment modality that best meets your needs, your dentist will evaluate the extent of the damage caused by gum disease to develop a conservative initial plan. A dental hygiene evaluation will determine if plaque (soft deposits on the tooth) is being removed on a daily basis.
+
+Next, calculus (also known as tartar) must be removed through a professional cleaning, and sometimes through the additional procedures of deep scaling and root planing. A local anesthetic may be administered during these procedures. Your dentist may also administer antibiotics to treat bacteria housed in the pocketed areas of the gum, and recommend a medicated mouthwash to be used as a regular part of your home regimen.
+
+
+
 Restorative Dentistry
  
 Restoration is a term used in dentistry to describe restoring the function of the tooth by replacing missing or damaged tooth structure. Restorations are classified as either:
