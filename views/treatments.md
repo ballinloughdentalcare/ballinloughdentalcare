@@ -12,9 +12,9 @@ Restorative Dentistry
  
 Restoration is a term used in dentistry to describe restoring the function of the tooth by replacing missing or damaged tooth structure. Restorations are classified as either:
 
-Direct- The restoration is fabricated, or made inside the mouth, ie. composite or amalgam fillings.
+Direct: The restoration is fabricated, or made inside the mouth, ie. composite or amalgam fillings.
 
-Indirect- The restoration is made outside of the mouth, ie. crowns, bridges, implants, inlays, onlays. Common           materials used are gold, porcelain, and zirconia.
+Indirect: The restoration is made outside of the mouth, ie. crowns, bridges, implants, inlays, onlays. Common           materials used are gold, porcelain, and zirconia.
 
 Crown & Bridgework
 
