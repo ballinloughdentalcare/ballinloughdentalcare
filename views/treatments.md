@@ -16,11 +16,11 @@ Cosmetic dentistry may also provide restorative benefits. For example, dental fi
 
 Today, dental fillings may fall into the category of cosmetic dentistry, because you can select fillings made of porcelain or composite materials that closely match the colour of your teeth, thus maintaining the natural appearance of your teeth and smile. 
 
-  Composite Bonding: Chipped, broken, discolored or decayed teeth may be repaired or have their appearance corrected      using a procedure called composite bonding. A dental composite material with the look of enamel and dentin is applied   into the cavity or onto the surface of a tooth, where it is then sculpted into shape, contoured and hardened with a     high-intensity light. The result is a restoration that blends with the remainder of the surrounding tooth structure     and the rest of your natural teeth to create a healthy, bright smile.
+  Composite Bonding: Chipped, broken, discoloured or decayed teeth may be repaired or have their appearance corrected     using a procedure called composite bonding. A dental composite material with the look of enamel and dentin is applied   into the cavity or onto the surface of a tooth, where it is then sculpted into shape, contoured and hardened with a     high-intensity light. The result is a restoration that blends with the remainder of the surrounding tooth structure     and the rest of your natural teeth to create a healthy, bright smile.
 
   Teeth Whitening: Teeth whitening is perhaps the most commonly recommended cosmetic dentistry procedure. Teeth are       often stained from smoking, food, drink (coffee, tea or red wine) or poor oral hygiene. Bleaching the teeth can         enhance the appearance of your smile.
 
-  Dental Veneers: Composite or porcelain laminates that are adhesively bonded to the surface of a tooth to correct and    repair chips and cracks will improve a worn appearance or severe tooth discoloration. Veneers may also be recommended   if you have gaps in your teeth or if you have not had success with teeth whitening. Evaluate porcelain veneers cost     and determine whether dental insurance may offset the cost.
+  Dental Veneers: Composite or porcelain laminates that are adhesively bonded to the surface of a tooth to correct and    repair chips and cracks will improve a worn appearance or severe tooth discolouration.
 
 
 
