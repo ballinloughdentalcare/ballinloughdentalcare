@@ -2,70 +2,89 @@
 #
 # Express may even be overkill, but it's there in case we need to extend the
 # site to do more than serve pages.
+fs        = require 'fs'
+url       = require 'url'
+express   = require 'express'
+morgan    = require 'morgan'
+basicAuth = require 'basic-auth'
+stylus    = require 'stylus'
+nib       = require 'nib'
+coffee    = require 'coffee-script'
+join      = require('path').join
 
-SITE = 'ballinloughdentalcare'
-
-path = require('path')
-express = require('express')
-basicAuth = require('basic-auth')
-redis = require('redis')
-fs = require('fs')
-marked = require('marked')
-util = require('util')
-stylus = require('stylus')
-nib = require('nib')
-
-# The Express app
+# App creation
 app = express()
-app.set('port', process.env.PORT or 3000)
+app.set 'port', process.env.PORT or 3000
+app.set 'auth', process.env.RESTRICTED_ACCESS
+app.set 'public', join(process.cwd(), 'public')
+app.set 'view engine', 'jade'
+app.enable 'strict-routing'
 
-# Use Stylus for CSS
-css = (str, path) ->
-  stylus(str).set('filename', path).set('compress', app.get('env') == 'production').use(nib())
-app.use(stylus.middleware(src: 'views', dest: 'public', compile: css))
+# Logger middleware
+app.use morgan('dev')
 
-# Add .html to files that could be served from the public directory
+# Authorization middleware
 app.use (req, res, next) ->
-  return next() if ~req.path.indexOf('.') # extension specified, carry on...
-  # no extension - add .html if it would match a static file
-  fs.exists path.join(__dirname, 'public', "#{req.path}.html"), (x) ->
-    req.path += '.html' if x
-    next()
+  return next() unless app.get('auth')
+  [name, pass] = app.get('auth').split(':')
+  credentials = basicAuth(req)
+  return next() if credentials?.name == name and credentials?.pass == pass
+  res.statusCode = 401
+  res.setHeader 'WWW-Authenticate', 'Basic realm="Restricted zone..."'
+  res.end 'Unauthorized.'
 
-# Serve static files from ./public
-app.use express.static(path.join(__dirname, 'public'))
+# Stylus (CSS) middleware
+app.use stylus.middleware
+  src:      app.get('views')
+  dest:     app.get('public')
+  force:    app.get('env') isnt 'production'
+  compile:  (str, path) ->
+    console.log "COMPILING #{str} -> #{path}"
+    stylus str
+      .set 'filename',  path
+      .set 'compress',  app.get('env') is 'production'
+      .set 'firebug',   app.get('env') isnt 'production'
+      .set 'linenos',   app.get('env') isnt 'production'
+      .set 'sourcemap', app.get('env') isnt 'production'
+      .use nib()
 
-app.set('view engine', 'jade')
+# Coffeescript (JS) middleware
+app.use (req, res, next) ->
+  force = false#app.get('env') isnt 'production'
+  src   = app.get('views')
+  dest  = app.get('public')
+  return next() unless req.method in ['GET', 'HEAD']
+  path = url.parse(req.url).pathname
+  return next() unless /\.js$/.test(path)
+  jsPath = join dest, path
+  coffeePath = join app.get('views'), path.replace(/\.js$/, '.coffee')
+  compile = () ->
+    fs.readFile coffeePath, 'utf8', (err, str) ->
+      return next(err.code is 'ENOENT' ? null : err) if err
+      js = coffee.compile str
+      fs.writeFile jsPath, js, next
+  return compile() if force
+  fs.stat coffeePath, (err, coffeeStats) ->
+    return next(err) if err?
+    fs.stat jsPath, (err, jsStats) ->
+      if err?
+        return next(err) unless err.code is 'ENOENT'
+        return compile()
+      return compile() if coffeeStats.mtime > jsStats.mtime
+      next()
 
-# Set up Redis (using Redis To Go) properly
-if (process.env.REDISTOGO_URL)
-  { port, hostname, auth } = require('url').parse(process.env.REDISTOGO_URL)
-  redis = redis.createClient(port, hostname)
-  redis.auth(auth.split(':')[1])
-else
-  redis = redis.createClient()
+# Static files from /public
+app.use express.static(app.get('public'))
 
-# Restrict access, if specified.
-if process.env.RESTRICTED_ACCESS
-  [name, pass] = process.env.RESTRICTED_ACCESS.split(':')
-  app.use (req, res, next) ->
-    credentials = basicAuth(req)
-    return next() if credentials?.name == name and credentials?.pass == pass
-    res.statusCode = 401
-    res.setHeader 'WWW-Authenticate', 'Basic realm="Restricted zone..."'
-    res.end 'Unauthorized.'
+# Router
+router = express.Router()
+router.get '/', (req, res, next) ->
+  res.render('index')
+router.get '/:page', (req, res, next) ->
+  res.render(req.params.page)
+router.get '/:page.html', (req, res, next) ->
+  res.render(req.params.page)
+app.use router
 
-# Function to render a page from memory - should only be called if the static
-# page doesn't exist.
-renderPage = (req, res) ->
-  page = req.params.page || 'index'
-  page = page.replace(/\.html/, '')
-  res.render(page)
-
-app.get '/:page', renderPage
-app.get '/', renderPage
-
-# Start 'er up!
-app.listen(process.env.PORT or 3000)
-
+app.listen(app.get('port'))
 console.log("...running on port #{app.get('port')}")
