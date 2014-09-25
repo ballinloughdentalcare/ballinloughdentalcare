@@ -7,9 +7,11 @@ url       = require 'url'
 express   = require 'express'
 morgan    = require 'morgan'
 basicAuth = require 'basic-auth'
+jade      = require 'jade'
 stylus    = require 'stylus'
 nib       = require 'nib'
 coffee    = require 'coffee-script'
+favicon   = require 'serve-favicon'
 join      = require('path').join
 
 # App creation
@@ -20,8 +22,10 @@ app.set 'public', join(process.cwd(), 'public')
 app.set 'view engine', 'jade'
 app.enable 'strict-routing'
 
+# Favicon
+app.use favicon(join(app.get('public'), 'favicon.ico'))
 # Logger middleware
-app.use morgan('dev')
+app.use morgan('combined')
 
 # Authorization middleware
 app.use (req, res, next) ->
@@ -39,7 +43,6 @@ app.use stylus.middleware
   dest:     app.get('public')
   force:    app.get('env') isnt 'production'
   compile:  (str, path) ->
-    console.log "COMPILING #{str} -> #{path}"
     stylus str
       .set 'filename',  path
       .set 'compress',  app.get('env') is 'production'
@@ -78,13 +81,13 @@ app.use express.static(app.get('public'))
 
 # Router
 router = express.Router()
-router.get '/', (req, res, next) ->
-  res.render('index')
-router.get '/:page', (req, res, next) ->
-  res.render(req.params.page)
-router.get '/:page.html', (req, res, next) ->
-  res.render(req.params.page)
+for page in ['about', 'contact', 'fees', 'treatments']
+  router.get "/#{page}", (req, res, next) -> res.render page
+router.get '/', (req, res) -> res.render 'index'
 app.use router
+
+# 404
+app.use (req, res, next) -> res.render('404')
 
 app.listen(app.get('port'))
 console.log("...running on port #{app.get('port')}")
