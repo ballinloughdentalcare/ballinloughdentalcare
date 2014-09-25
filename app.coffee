@@ -2,17 +2,19 @@
 #
 # Express may even be overkill, but it's there in case we need to extend the
 # site to do more than serve pages.
-fs        = require 'fs'
-url       = require 'url'
-express   = require 'express'
-morgan    = require 'morgan'
-basicAuth = require 'basic-auth'
-jade      = require 'jade'
-stylus    = require 'stylus'
-nib       = require 'nib'
-coffee    = require 'coffee-script'
-favicon   = require 'serve-favicon'
-join      = require('path').join
+fs              = require 'fs'
+url             = require 'url'
+express         = require 'express'
+morgan          = require 'morgan'
+basicAuth       = require 'basic-auth'
+jade            = require 'jade'
+stylus          = require 'stylus'
+nib             = require 'nib'
+coffee          = require 'coffee-script'
+favicon         = require 'serve-favicon'
+join            = require('path').join
+bodyParser      = require 'body-parser'
+methodOverride  = require 'method-override'
 
 # App creation
 app = express()
@@ -33,9 +35,9 @@ app.use (req, res, next) ->
   [name, pass] = app.get('auth').split(':')
   credentials = basicAuth(req)
   return next() if credentials?.name == name and credentials?.pass == pass
-  res.statusCode = 401
+  res.status 401
   res.setHeader 'WWW-Authenticate', 'Basic realm="Restricted zone..."'
-  res.end 'Unauthorized.'
+  res.send 'Unauthorized.'
 
 # Stylus (CSS) middleware
 app.use stylus.middleware
@@ -79,15 +81,29 @@ app.use (req, res, next) ->
 # Static files from /public
 app.use express.static(app.get('public'))
 
+# body-parser and method-override help us handle form submissions
+app.use bodyParser()
+app.use methodOverride()
+
 # Router
 router = express.Router()
-for page in ['about', 'contact', 'fees', 'treatments']
-  router.get "/#{page}", (req, res, next) -> res.render page
-router.get '/', (req, res) -> res.render 'index'
+router.get '/',           (req, res, next) -> res.render 'index'
+router.get '/about',      (req, res, next) -> res.render 'about'
+router.get '/contact',    (req, res, next) -> res.render 'contact'
+router.get '/fees',       (req, res, next) -> res.render 'fees'
+router.get '/treatments', (req, res, next) -> res.render 'treatments'
 app.use router
 
 # 404
-app.use (req, res, next) -> res.render('404')
+app.use (req, res, next) ->
+  res.status 404
+  res.render '404'
+
+# 500
+app.use (err, req, res, next) ->
+  console.error err.stack
+  res.status 500
+  res.render '500'
 
 app.listen(app.get('port'))
 console.log("...running on port #{app.get('port')}")
