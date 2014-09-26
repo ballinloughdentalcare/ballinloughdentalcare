@@ -82,7 +82,7 @@ app.use (req, res, next) ->
 app.use express.static(app.get('public'))
 
 # body-parser and method-override help us handle form submissions
-app.use bodyParser()
+app.use bodyParser.urlencoded(extended: true)
 app.use methodOverride()
 
 # Router
