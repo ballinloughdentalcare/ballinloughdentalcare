@@ -25,13 +25,13 @@ Restoration is a term used in dentistry to describe restoring the function of th
 
 Direct: The restoration is fabricated, or made inside the mouth, ie. composite or amalgam fillings.
 
-Indirect: The restoration is made outside of the mouth, ie. crowns, bridges, implants, inlays, onlays. Common           materials used are gold, porcelain, and zirconia.
+Indirect: The restoration is made outside of the mouth, ie. crowns, bridges, implants, dentures, inlays, onlays. Common           materials used are gold, porcelain, and zirconia.
 
 Crown & Bridgework
 
 Dental Crowns: Whether a crown is needed for tooth cracks, excessive tooth decay, damaged tooth protection, teeth       grinding, missing teeth, need for beautification or an improper bite resulting from the natural wear and tear           produced by aging, dental crowns of today can satisfy your functional and aesthetic needs. The purpose of a dental      crown is to encompass and protect a needy tooth with a custom-designed tooth material, much like a fitted cap.  
 
-Dental Bridges: Dental bridges are used to replace missing teeth that would otherwise adversely affect your mouth.      The negative effects of one or more missing teeth can include the shifting of other teeth to accommodate for the        open space, a change in the bite that may affect your ability to eat, a speech impediment, and an increased risk        for periodontal disease and tooth decay.
+Dental Bridges: Dental bridges are used to replace missing teeth that would otherwise adversely affect your mouth.      The negative effects of one or more missing teeth can include the shifting of other teeth to accommodate for the        open space, a change in the bite that may affect your ability to eat, and an increased risk for periodontal disease and tooth decay.
 
 
 Cosmetic Dentistry
