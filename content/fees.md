@@ -46,7 +46,8 @@
 | Recement crown                    | €60         |
 | Recement bridge (per tooth)       | €60         |
 
-|                                   |             |
+| 
+ ## Miscellaneous|             |
 |-----------------------------------|-------------|
 | Full mouth tooth whitening        | €250  
 | Top Up Bleach Kit                 | €80
