@@ -44,7 +44,7 @@ Crown & Bridgework
 
 Dental Crowns: Whether a crown is needed for tooth cracks, excessive tooth decay, damaged tooth protection, teeth       grinding, missing teeth, need for beautification or an improper bite resulting from the natural wear and tear           produced by aging, dental crowns of today can satisfy your functional and aesthetic needs. The purpose of a dental      crown is to encompass and protect a needy tooth with a custom-designed tooth material, much like a fitted cap.  
 
-Dental Bridges: Dental bridges are used to replace missing teeth that would otherwise adversely affect your mouth.      The negative effects of one or more missing teeth can include the shifting of other teeth to accommodate for the        open space, a change in the bite that may affect your ability to eat, and an increased risk for periodontal disease and tooth decay.
+Dental Bridges: Dental bridges are used to replace missing teeth that would otherwise adversely affect your mouth.      The negative effects of one or more missing teeth can include the shifting of other teeth to accommodate for the        open space, a change in the bite that may affect your ability to eat, and an increased risk for periodontal disease and tooth decay. A fixed bridge replaces one or more teeth by placing crowns on the teeth on either side of the space and attaching artificial teeth to them. This bridge is then cemented into place.  Not only does a bridge fill in the spaces created by missing teeth, it prevents other teeth from changing position.
 
 
 Cosmetic Dentistry
