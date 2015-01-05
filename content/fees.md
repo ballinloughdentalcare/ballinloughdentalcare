@@ -48,9 +48,10 @@
 
  ## Miscellaneous
  
+|                                   |             |
 |-----------------------------------|-------------|
-| Full mouth tooth whitening        | €250  
-| Top Up Bleach Kit                 | €80
+| Full mouth tooth whitening        | €250        |
+| Top Up Bleach Kit                 | €80         |
 | Sports gumshield                  | €80         |
 | Biteguard                         | €130        |
 
