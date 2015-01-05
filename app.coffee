@@ -87,11 +87,13 @@ app.use methodOverride()
 
 # Router
 router = express.Router()
-router.get '/',           (req, res, next) -> res.render 'index'
-router.get '/about',      (req, res, next) -> res.render 'about'
-router.get '/contact',    (req, res, next) -> res.render 'contact'
-router.get '/fees',       (req, res, next) -> res.render 'fees'
-router.get '/treatments', (req, res, next) -> res.render 'treatments'
+locals =
+  admin: false
+router.get '/',           (req, res, next) -> res.render 'index', locals
+router.get '/about',      (req, res, next) -> res.render 'about', locals
+router.get '/contact',    (req, res, next) -> res.render 'contact', locals
+router.get '/fees',       (req, res, next) -> res.render 'fees', locals
+router.get '/treatments', (req, res, next) -> res.render 'treatments', locals
 app.use router
 
 # 404

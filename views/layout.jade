@@ -4,7 +4,10 @@ html
     title Ballinlough Dental Care
     link(rel='stylesheet', href='/style.css')
     script(src='/application.js')
+    if this.admin
+      script(src='/admin.js')
   body
+    p Hello, #{foo}
     header
       :markdown
         # Ballinlough Dental Care
