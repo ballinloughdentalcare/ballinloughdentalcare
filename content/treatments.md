@@ -41,9 +41,8 @@ Your dentist may also administer antibiotics to treat bacteria housed in the
 pocketed areas of the gum, and recommend a medicated mouthwash to be used as a
 regular part of your home regimen.
 
-
 ## Restorative Dentistry
- 
+
 Restoration is a term used in dentistry to describe restoring the function of
 the tooth by replacing missing or damaged tooth structure. Restorations are
 classified as either:
