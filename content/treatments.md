@@ -25,13 +25,26 @@ Restoration is a term used in dentistry to describe restoring the function of th
 
 Direct: The restoration is fabricated, or made inside the mouth, ie. composite or amalgam fillings.
 
-Indirect: The restoration is made outside of the mouth, ie. crowns, bridges, implants, dentures, inlays, onlays. Common           materials used are gold, porcelain, and zirconia.
+Indirect: The restoration is made outside of the mouth, ie. dentures, crowns, bridges, implants, inlays, onlays. Common materials used are acrylic, chrome, gold, porcelain, and zirconia.
+
+Dentures 
+
+A denture is a removable replacement for missing teeth and surrounding tissues. Two types of denture are available; complete and partial dentures. Complete dentures are used when all the teeth are missing while partial dentures are used when some natural teeth remain. 
+ 
+Complete Dentures
+ 
+Complete dentures can be either "conventional" or "immediate." Made after the teeth have been removed and the gum tissue has begun to heal, a conventional denture is ready for placement in the mouth about eight to 12 weeks after the teeth have been removed.
+Unlike conventional dentures, immediate dentures are made in advance and can be positioned as soon as the teeth are removed. As a result, the wearer does not have to be without teeth during the healing period. However, bones and gums shrink over time, especially during the healing period following tooth removal. Therefore a disadvantage of immediate dentures compared with conventional dentures is that they require more adjustments to fit properly during the healing process and generally should only be considered a temporary solution until conventional dentures can be made.
+
+ Partial Dentures
+ 
+A removable partial denture or bridge usually consists of replacement teeth attached to a pink or gum-colored plastic base, which is sometimes connected by metal framework that holds the denture in place in the mouth. Partial dentures are used when one or more natural teeth remain in the upper or lower jaw. A partial denture can be immediate or conventional also.
 
 Crown & Bridgework
 
 Dental Crowns: Whether a crown is needed for tooth cracks, excessive tooth decay, damaged tooth protection, teeth       grinding, missing teeth, need for beautification or an improper bite resulting from the natural wear and tear           produced by aging, dental crowns of today can satisfy your functional and aesthetic needs. The purpose of a dental      crown is to encompass and protect a needy tooth with a custom-designed tooth material, much like a fitted cap.  
 
-Dental Bridges: Dental bridges are used to replace missing teeth that would otherwise adversely affect your mouth.      The negative effects of one or more missing teeth can include the shifting of other teeth to accommodate for the        open space, a change in the bite that may affect your ability to eat, and an increased risk for periodontal disease and tooth decay.
+Dental Bridges: Dental bridges are used to replace missing teeth that would otherwise adversely affect your mouth.      The negative effects of one or more missing teeth can include the shifting of other teeth to accommodate for the        open space, a change in the bite that may affect your ability to eat, and an increased risk for periodontal disease and tooth decay. A fixed bridge replaces one or more teeth by placing crowns on the teeth on either side of the space and attaching artificial teeth to them. This bridge is then cemented into place.  Not only does a bridge fill in the spaces created by missing teeth, it prevents other teeth from changing position.
 
 
 Cosmetic Dentistry
