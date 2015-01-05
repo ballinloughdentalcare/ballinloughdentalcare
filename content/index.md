@@ -1,9 +1,9 @@
 ## Welcome
 
-* About Us
-* Treatments
-* Fees
-* Contact Us
+* [About Us](/about)
+* [Treatments](/treatments)
+* [Fees](/fees)
+* [Contact Us](/contact)
 
 ## Opening Hours
 
