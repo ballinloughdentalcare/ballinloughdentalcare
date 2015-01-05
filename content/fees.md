@@ -23,13 +23,6 @@
 | Routine                           | €80         |
 | Surgical/Emergency                | €120        |
 
-## Root Canal Treatment
-
-|                                   |             |
-|-----------------------------------|-------------|
-| Emergency Anterior                | €75         |
-| Emergency Posterior               | €100        |
-
 ## Dentures
 
 |                                   |             |
@@ -55,9 +48,10 @@
 
 |                                   |             |
 |-----------------------------------|-------------|
-| Full mouth tooth whitening        | €299        |
+| Full mouth tooth whitening        | €250  
+| Top Up Bleach Kit                 | €80
 | Sports gumshield                  | €80         |
-| Biteguard                         | €150        |
+| Biteguard                         | €130        |
 
 ## Children Fees
 
