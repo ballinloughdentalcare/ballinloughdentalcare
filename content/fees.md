@@ -39,17 +39,19 @@
 |                                   |             |
 |-----------------------------------|-------------|
 | Crowns                            | €750        |
-| ... for gold, add                 | €100        |
-| ... for post & core, add          | €100        |
+|                  ... for gold, add| €100        |
+|           ... for post & core, add| €100        |
 | Bridge (per tooth)                | €650        |
 | Veneers                           | €500        |
 | Recement crown                    | €60         |
 | Recement bridge (per tooth)       | €60         |
 
+ ## Miscellaneous
+ 
 |                                   |             |
 |-----------------------------------|-------------|
-| Full mouth tooth whitening        | €250  
-| Top Up Bleach Kit                 | €80
+| Full mouth tooth whitening        | €250        |
+| Top Up Bleach Kit                 | €80         |
 | Sports gumshield                  | €80         |
 | Biteguard                         | €130        |
 
