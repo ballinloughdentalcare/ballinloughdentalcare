@@ -66,6 +66,8 @@
 | Fissure sealant                   | €25         |
 
   
+ 
+ 
  P.R.S.I.
 
 Patients who qualify under the PRSI/PPS Dental Scheme are entitled to one free examination per year.
@@ -77,20 +79,4 @@ Adults over 16 years of age who have a full medical card are entitled to one den
 
 
 Please note these fees are used as guidelines only and will vary depending on the time required per treatment. This will be at the discretion of the dentist
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
