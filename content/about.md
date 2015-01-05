@@ -4,7 +4,7 @@ Diarmuid Twomey
 
 Here is a picture of Diarmuid.
 
-![blah](https://dl.dropboxusercontent.com/sc/mlmc321rb630jup/AAAlDwUZGvoeBbh8ILt6_urCa "Hover text")
+![blah blah](https://dl.dropboxusercontent.com/sc/mlmc321rb630jup/AAAlDwUZGvoeBbh8ILt6_urCa "Hover text")
 
 Diarmuid is a native of Ballincollig, Co. Cork. He graduated from University College
 Cork in 2003. He spent 5 years in London following graduation working in NHS and private practice. He
