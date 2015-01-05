@@ -16,11 +16,8 @@ Hilary set up the practice in 1983 following a few years working around Cork Cit
 
 Andrea Meehan
 
-Andrea is from Little Island and has worked at the practice for the last ten years. She qualified from Cork University Dental Hospital and School in 19994.
+Andrea is from Little Island and has worked at the practice for the last ten years. She qualified from Cork University Dental Hospital and School in 1994.
 
-Leanne Dogan
-
-Leanne is the newest member of the team after recently moving to Ireland. She studied and trained in London where she worked in The Dental Practice, Watford for 5 years.
 
 
 ## Training and Expertise
@@ -34,7 +31,7 @@ U.K.
 
 ## Infection Control
 
-Passage West Dental Care is HIQA compliant and follows the same HIQA
+Ballinlough Dental Care is HIQA compliant and follows the same HIQA
 sterilization recommendations used for Hospitals.
 
 ## Membership of Professional Bodies
