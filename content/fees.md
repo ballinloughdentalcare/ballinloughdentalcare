@@ -23,13 +23,6 @@
 | Routine                           | €80         |
 | Surgical/Emergency                | €120        |
 
-## Root Canal Treatment
-
-|                                   |             |
-|-----------------------------------|-------------|
-| Emergency Anterior                | €75         |
-| Emergency Posterior               | €100        |
-
 ## Dentures
 
 |                                   |             |
