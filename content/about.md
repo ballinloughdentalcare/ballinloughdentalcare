@@ -31,7 +31,7 @@ U.K.
 
 ## Infection Control
 
-Passage West Dental Care is HIQA compliant and follows the same HIQA
+Ballinlough Dental Care is HIQA compliant and follows the same HIQA
 sterilization recommendations used for Hospitals.
 
 ## Membership of Professional Bodies
