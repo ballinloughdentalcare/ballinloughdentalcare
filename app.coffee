@@ -34,7 +34,9 @@ app.use (req, res, next) ->
   return next() unless app.get('auth')
   [name, pass] = app.get('auth').split(':')
   credentials = basicAuth(req)
-  return next() if credentials?.name == name and credentials?.pass == pass
+  if credentials?.name == name and credentials?.pass == pass
+    app.set('admin', true)
+    return next()
   res.status 401
   res.setHeader 'WWW-Authenticate', 'Basic realm="Restricted zone..."'
   res.send 'Unauthorized.'
@@ -88,7 +90,7 @@ app.use methodOverride()
 # Router
 router = express.Router()
 locals =
-  admin: false
+  admin: true
 router.get '/',           (req, res, next) -> res.render 'index', locals
 router.get '/about',      (req, res, next) -> res.render 'about', locals
 router.get '/contact',    (req, res, next) -> res.render 'contact', locals
