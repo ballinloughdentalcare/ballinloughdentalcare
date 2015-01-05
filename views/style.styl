@@ -69,9 +69,6 @@ header
     img
       vertical-align middle
 
-p, h1, h2
-  margin 1em
-
 header
   background-image    url("top-1280.svg"),  url("overlay.png"),   url("header.jpg")
   background-size     1280px 184px,         auto,                 cover;
@@ -218,7 +215,7 @@ h2
     text-align left
   margin-bottom 1em
 
-#prices+p
+#prices + p
   a[href='/prices.pdf']
     button()
     margin 1em
@@ -240,3 +237,6 @@ article#about
       margin 0 1em
       padding 4px
       box-shadow 2px 2px 20px black
+
+article
+  margin 1em
