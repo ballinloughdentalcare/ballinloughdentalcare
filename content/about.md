@@ -33,8 +33,8 @@ U.K.
 
 ## Infection Control
 
-Ballinlough Dental Care is HIQA compliant and follows the same HIQA
-sterilization recommendations used for Hospitals.
+Ballinlough Dental Care has passed HSE inspection, is HIQA compliant and follows the same HIQA
+sterilization recommendations used for hospitals.
 
 ## Membership of Professional Bodies
 
