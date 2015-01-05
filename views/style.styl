@@ -4,6 +4,7 @@ global-reset()
 grey = rgb(224, 224, 224)
 darkgrey = #5b5b5b
 black = #544d55
+darkishblue = #224096
 
 // A list of background images, applied in the dental-services-provided list
 family-portrait = url("http://upload.wikimedia.org/wikipedia/commons/d/df/Family_Portrait.jpg")
@@ -60,10 +61,48 @@ body
   background white
   color #6e6e6e
 
-h1, h2, h3
+h1, h2, h3, h4, h5, h6
   hx()
 
+article
+  margin 1em
+  h1
+    margin-bottom 1em
+    font-size 1.3em
+    color darkishblue
+    text-shadow 2px 2px grey
+    text-align center
+
+h3, h4
+  margin-top 1em
+p
+  margin-top 1em
 header
+  position relative
+
+  #phone-number
+    position absolute
+    bottom 0
+    a
+      color black
+      text-decoration none
+      vertical-align bottom
+    a:before
+      color black
+      left 0
+      bottom 0
+      content "\260e"
+      padding-right 0.5em
+  #social-media
+    position absolute
+    bottom 0
+    right 2em
+    a, a img
+      vertical-align bottom
+    a.email
+      color black
+      text-decoration none
+      font-size 63px
   p
     text-align center
     margin 
@@ -145,6 +184,9 @@ h2
       border 1px solid transparentify(grey, 0.75)
       text-align center
       position relative
+      text-decoration none
+      font-size 1.2em
+      color darkishblue
       &:before
         content ''
         background-color grey
@@ -270,6 +312,18 @@ form
     display block
     margin auto
 
-article
-  margin 1em
+article#fees
+  table
+    width 100%
+    tr
+      &:nth-child(even)
+        background-color transparentify(darkishblue, darkishblue, 0.1)
+      td:nth-of-type(2)
+        text-align right
+  p em
+    text-align center
+    font-size 0.9em
+    line-height 0.8em
 
+em
+  font-style italic

@@ -39,8 +39,8 @@
 |                                   |             |
 |-----------------------------------|-------------|
 | Crowns                            | €750        |
-|                  ... for gold, add| €100        |
-|           ... for post & core, add| €100        |
+| ... for gold, add:                | €100        |
+| ... for post & core, add:         | €100        |
 | Bridge (per tooth)                | €650        |
 | Veneers                           | €500        |
 | Recement crown                    | €60         |
@@ -66,17 +66,24 @@
 | Fissure sealant                   | €25         |
 
   
- 
- 
- P.R.S.I.
+## &nbsp;
 
-Patients who qualify under the PRSI/PPS Dental Scheme are entitled to one free examination per year.
+#### P.R.S.I.
 
-
-   Medical Cards
-
-Adults over 16 years of age who have a full medical card are entitled to one dental examination per year free of charge.  They are entitled to extractions and prescriptions for dental/oral infections free of charge.  They are entitled in certain circumstances to dentures and a limited number of fillings free of charge.  Please contact our dental practice for further information.
+Patients who qualify under the PRSI/PPS Dental Scheme are entitled to one free
+examination per year.
 
 
-Please note these fees are used as guidelines only and will vary depending on the time required per treatment. This will be at the discretion of the dentist
+#### Medical Cards
+
+Adults over 16 years of age who have a full medical card are entitled to one
+dental examination per year free of charge.  They are entitled to extractions
+and prescriptions for dental/oral infections free of charge.  They are
+entitled in certain circumstances to dentures and a limited number of fillings
+free of charge.  Please contact our dental practice for further information.
+
+
+*Please note these fees are used as guidelines only and will vary depending on
+the time required per treatment. This will be at the discretion of the
+dentist.*
 
