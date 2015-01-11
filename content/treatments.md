@@ -61,9 +61,9 @@ tissues. Two types of denture are available; complete and partial dentures.
 Complete dentures are used when all the teeth are missing while partial
 dentures are used when some natural teeth remain. 
  
-*Complete Dentures*
+*Full Dentures*
  
-Complete dentures can be either "conventional" or "immediate." Made after the
+Full dentures can be either "conventional" or "immediate." Made after the
 teeth have been removed and the gum tissue has begun to heal, a conventional
 denture is ready for placement in the mouth about eight to 12 weeks after the
 teeth have been removed.  Unlike conventional dentures, immediate dentures are
