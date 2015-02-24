@@ -60,8 +60,8 @@
 |                                   |             |
 |-----------------------------------|-------------|
 | Exam under 5                      | Free   |
-| Exam under 16                     | €30         |
-| Scale and polish under 16         | €20         |
+| Exam under 18                     | €30         |
+| Scale and polish under 18         | €20         |
 | Baby tooth extraction or filling  | €50         |
 | Fissure sealant                   | €25         |
 
