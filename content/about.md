@@ -22,6 +22,13 @@ to the area after growing up on the Boreenmanna Road.
 Andrea is from Little Island and has worked at the practice for the last ten
 years. She qualified from Cork University Dental Hospital and School in 1994.
 
+
+## Andrea Meehan
+
+![Andrea Meehan][jj]
+Andrea is from Little Island and has worked at the practice for the last ten
+years. She qualified from Cork University Dental Hospital and School in 1994.
+
 ## Training and Expertise
 
 At Ballinlough Dental Care we take great pride in providing the care you
@@ -44,3 +51,4 @@ the Irish Dental Council.
 [dt]: /dt.jpg
 [hh]: /hh.jpg
 [am]: /am.jpg
+[jj]: /jj.jpg
