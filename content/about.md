@@ -23,11 +23,10 @@ Andrea is from Little Island and has worked at the practice for the last ten
 years. She qualified from Cork University Dental Hospital and School in 1994.
 
 
-## Andrea Meehan
+## Naomh Royal
 
-![Andrea Meehan][jj]
-Andrea is from Little Island and has worked at the practice for the last ten
-years. She qualified from Cork University Dental Hospital and School in 1994.
+![Naomh Royal][jj]
+Naomh joined the practice in 2015 after training and working as a dental nurse in her hometown of Carrigaline for the previous four years. She graduated from Cork University Dental Hospital and School in 2015.
 
 ## Training and Expertise
 
