@@ -20,7 +20,7 @@ to the area after growing up on the Boreenmanna Road.
 
 ![Andrea Meehan][am]
 Andrea is from Little Island and has worked at the practice for the last ten
-years. She qualified from Cork University Dental Hospital and School in 1994.
+years. She qualified from Cork University Dental Hospital and School in 2004.
 
 
 ## Naomh Royal
