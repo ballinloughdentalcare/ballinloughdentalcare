@@ -42,6 +42,7 @@
 | ... for gold, add:                | €100        |
 | ... for post & core, add:         | €100        |
 | Bridge (per tooth)                | €650        |
+| Maryland Bridge                   | €600        |
 | Veneers                           | €500        |
 | Recement crown                    | €60         |
 | Recement bridge (per tooth)       | €60         |
@@ -50,9 +51,9 @@
  
 |                                   |             |
 |-----------------------------------|-------------|
-| Full mouth tooth whitening        | €250        |
+| Full Mouth Tooth Whitening        | €250        |
 | Top Up Bleach Kit                 | €80         |
-| Sports gumshield                  | €80         |
+| Sports Gumshield                  | €80         |
 | Biteguard                         | €130        |
 
 ## Children Fees
