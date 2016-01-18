@@ -144,3 +144,17 @@ the appearance of your smile.
 Composite or porcelain laminates that are adhesively bonded to the surface of
 a tooth to correct and repair chips and cracks will improve a worn
 appearance or severe tooth discolouration.
+
+## Oral Surgery
+
+### Tooth Extractions
+
+Tooth extraction is the removal of a tooth from its socket in the bone. 
+
+
+
+There are two types of extractions:
+
+A simple extraction is performed on a tooth that can be seen in the mouth. General dentists commonly do simple extractions. In a simple extraction, the dentist loosens the tooth with an instrument called an elevator. Then the dentist uses an instrument called a forceps to remove the tooth.
+A surgical extraction is a more complex procedure. It is used if a tooth may have broken off at the gum line or has not come into the mouth yet. Surgical extractions commonly are done by oral surgeons. However, they are also done by general dentists. The doctor makes a small incision (cut) into your gum. Sometimes it's necessary to remove some of the bone around the tooth or to cut the tooth in half in order to extract it.
+
