@@ -16,6 +16,14 @@ join            = require('path').join
 bodyParser      = require 'body-parser'
 methodOverride  = require 'method-override'
 
+# Redis connection
+if process.env.REDISTOGO_URL
+  redisURL = url.parse process.env.REDISTOGO_URL
+  redis = require('redis').createClient(redisURL.port, redisURL.hostname)
+  redis.auth redisURL.auth.split(':')[1]
+else
+  redis = require('redis').createClient()
+
 # App creation
 app = express()
 app.set 'port', process.env.PORT or 3000
