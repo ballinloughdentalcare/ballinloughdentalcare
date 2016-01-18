@@ -149,12 +149,6 @@ appearance or severe tooth discolouration.
 
 ### Tooth Extractions
 
-Tooth extraction is the removal of a tooth from its socket in the bone. 
-
-
-
-There are two types of extractions:
-
-A simple extraction is performed on a tooth that can be seen in the mouth. General dentists commonly do simple extractions. In a simple extraction, the dentist loosens the tooth with an instrument called an elevator. Then the dentist uses an instrument called a forceps to remove the tooth.
-A surgical extraction is a more complex procedure. It is used if a tooth may have broken off at the gum line or has not come into the mouth yet. Surgical extractions commonly are done by oral surgeons. However, they are also done by general dentists. The doctor makes a small incision (cut) into your gum. Sometimes it's necessary to remove some of the bone around the tooth or to cut the tooth in half in order to extract it.
+Tooth extraction is the removal of a tooth from its socket in the bone. Although permanent teeth were meant to last a lifetime, there are a number of reasons why having a tooth pulled in adulthood is sometimes necessary. A very common reason involves a tooth that is too badly damaged, from trauma or decay, to be repaired. Other reasons include overcrowding, orthodontics, infection and gum disease.
+There are two ypes of extractions, simple and complex. In a simple extraction, the tooth is loosened with an instrument called an elevator. Then, a forceps is used to remove the tooth. A surgical extraction is a more complex procedure. It is used if a tooth may have broken off at the gum line or has not come into the mouth yet. A small incision must be made into your gum and some of the bone around the tooth removed or the tooth cut in half in order to extract it. Sometimes it is necessary for surgical extractions to be performed by specialist oral surgeons.
 
