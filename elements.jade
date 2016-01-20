@@ -1,0 +1,64 @@
+extends layout
+block main
+  h1 Heading 1
+  h2 Heading 2
+  h3 Heading 3
+  h4 Heading 4
+  h5 Heading 5
+
+  p
+    | This is normal, and here's some 
+    strong strong
+    |  text, here's some 
+    em emphasized
+    |  text, here's some 
+    sup superscript
+    |  text, here's some 
+    sub subscript
+    |  text, here's some 
+    small small
+    |  text, here's some 
+    code code
+    |  text, here's some 
+    kbd keyboard
+    |  text, here's some 
+    q quote
+    |  text, here's a 
+    cite citation
+    |  and finally here's 
+    a(href='#') a link.
+
+  blockquote.
+    this is a blockquote
+
+  pre
+    this text is preformatted
+
+  ul
+    li An
+    li Unordered
+    li list
+
+  ol
+    li An
+    li ordered
+    li list
+
+  table
+    thead
+      tr
+        th table
+        th header
+    tfoot
+      tr
+        td(colspan='2') table footer
+    tbody
+      tr
+        td Here's
+        td some
+      tr
+        td content
+        td for
+      tr
+        td the
+        td table

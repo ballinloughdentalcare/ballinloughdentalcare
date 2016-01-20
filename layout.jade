@@ -1,0 +1,37 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf8')
+    title Ballinlough Dental Care
+    meta(name='description' content='Taking care of the dental health of the people of Ballinlough and surrounding areas for over thirty years')
+    meta(name='keywords' content='dentist,dental,orthodondist,filling,root-canal,crown,dentures,veneer,ballinlough,cork,ireland')
+    meta(name='viewport' content='width=device-width,initial-scale=1')
+    link(rel='stylesheet' href='/bower_components/flickity/dist/flickity.min.css')
+    link(rel='stylesheet' href='/style.css')
+    script(src='/bower_components/flickity/dist/flickity.pkgd.min.js')
+    script(src='/script.js')
+
+  body
+    header
+      h1 Ballinlough Dental Care
+      p Taking care of the dental health of the people of Ballinlough and the surrounding areas for over thirty years
+
+      nav
+        ul
+          li: a(href='/' title='Our homepage') Home
+          li: a(href='/about.html' title='Information about the clinic and staff') About Us
+          li: a(href='/treatments.html' title='The various treatments offered') Treatments
+          li: a(href='/fees.html' title='Up-to-date list of treatment costs') Fees
+          li: a(href='/contact.html' title='How to find us or get in touch') Contact Us
+
+    main
+      block main
+
+    footer
+      p.copyright.
+        © #{new Date().getFullYear()} Ballinlough Dental Care
+      ul.social
+        li: a.email(title='Email us' href='mailto:ballinloughdentalcare@gmail.com') Email
+        li: a.facebook(title='Our Facebook page' href="https://www.facebook.com/ballinloughdentalcare") Facebook
+        li: a.gplus(title='Our Google+ page' href="https://plus.google.com/115736425629046441035") Google+
+        li: a.twitter(title='Our Twitter feed' href="https://twitter.com/ballinloughdent") Twitter

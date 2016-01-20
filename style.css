@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  -webkit-text-size-adjust: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+body {
+  background-color: #2e3141;
+  background-image: linear-gradient(to top, rgba(46,49,65,0.8), rgba(46,49,65,0.8)), url("bg.jpg");
+  background-size: auto, cover;
+  background-attachment: fixed, fixed;
+  background-position: center, center;
+}
+body,
+input,
+select,
+textarea {
+  color: #fff;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 12pt;
+  font-weight: 300;
+  line-height: 1.65;
+}
+@media screen and (min-width: 1280px) {
+  body,
+  input,
+  select,
+  textarea {
+    font-size: 13pt;
+  }
+}
+@media screen and (min-width: 1680px) {
+  body,
+  input,
+  select,
+  textarea {
+    font-size: 16.5pt;
+  }
+}
+a {
+  transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  border-bottom: dotted 1px rgba(255,255,255,0.35);
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom-color: transparent;
+  color: #fff !important;
+}
+strong,
+b {
+  color: #fff;
+  font-weight: 600;
+}
+em,
+i {
+  font-style: italic;
+}
+p {
+  margin: 0 0 2em 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-family: Raleway, Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 0 0 1em 0;
+  text-transform: uppercase;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+  color: inherit;
+  text-decoration: none;
+}
+h2 {
+  font-size: 1.2em;
+}
+h3 {
+  font-size: 0.9em;
+}
+h4 {
+  font-size: 0.7em;
+}
+h5 {
+  font-size: 0.7em;
+}
+h6 {
+  font-size: 0.7em;
+}
+@media screen and (max-width: 736px) {
+  h2 {
+    font-size: 1em;
+  }
+  h3 {
+    font-size: 0.8em;
+  }
+}
+sub,
+sup {
+  font-size: 0.8em;
+  position: relative;
+}
+sub {
+  top: 0.5em;
+}
+sup {
+  top: -0.5em;
+}
+blockquote {
+  border-left: solid 4px rgba(255,255,255,0.125);
+  font-style: italic;
+  margin: 0 0 2em 0;
+  padding: 0.5em 0 0.5em 2em;
+}
+code {
+  background: rgba(255,255,255,0.025);
+  border-radius: 5px;
+  border: solid 2px rgba(255,255,255,0.125);
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0 0.25em;
+  padding: 0.25em 0.65em;
+}
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0 0 2em 0;
+}
+pre code {
+  display: block;
+  line-height: 1.75em;
+  padding: 1em 1.5em;
+  overflow-x: auto;
+}
+header,
+main,
+footer {
+  padding: 2em 1.5em 0.1em 1.5em;
+}
+.gallery {
+  margin-bottom: 2em;
+}
+@media screen and (min-width: 768px) {
+  .gallery width 100% {
+    width: 700px;
+  }
+}
+.gallery a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+}
+@media screen and (min-width: 768px) {
+  .gallery a {
+    width: 50%;
+  }
+}
+.gallery figure {
+  margin: 0;
+}
+.gallery figure img {
+  width: 100%;
+}
+.gallery figure figcaption {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  padding: 1em;
+  color: #000;
+  background-color: rgba(255,255,255,0.75);
+  text-align: right;
+}
+.flickity-page-dots {
+  bottom: 0;
+}
+header {
+  padding: 5em 2em 4.25em 2em;
+  margin-bottom: -2.5em;
+}
+header h1 {
+  font-size: 1.5em;
+  transition: opacity 0.5 ease, transform 0.5 ease, filter 0.25 ease;
+  transform: translate-x(0);
+  transition-delay: 0.65;
+  filter: blur(0);
+  opacity: 1;
+  border-bottom: solid 2px rgba(255,255,255,0.125);
+  margin-bottom: 0.8em;
+  padding-bottom: 0.4em;
+}
+header h1:before {
+  content: "";
+  background-image: url("logo.png");
+  font-size: 1.5em;
+  height: 2.25em;
+  width: 3em;
+  display: block;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */

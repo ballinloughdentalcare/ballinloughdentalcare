@@ -1,0 +1,61 @@
+// Variables
+background-image = "bg.jpg"
+
+// Imports
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic")
+@require reset
+@require base
+@require grid
+
+// Gallery
+.gallery
+  margin-bottom 2em
+  width 100%
+    @media screen and (min-width: 768px)
+      width 700px
+  a
+    display block
+    width 100%
+    height 100%
+    margin 0
+    padding 0
+    @media screen and (min-width: 768px)
+      width 50%
+    height 200px
+  figure
+    margin 0
+    img
+      width 100%
+    figcaption
+      position absolute
+      top 1em
+      right 1em
+      padding 1em
+      color black
+      background-color rgba(white, 75%)
+      text-align right
+
+.flickity-page-dots
+  bottom 0
+
+header
+  padding 5em 2em 4.25em 2em
+  margin-bottom -2.5em
+  h1
+    font-size 1.5em
+    transition opacity 0.5 ease, transform 0.5 ease, filter 0.25 ease
+    transform translate-x(0)
+    transition-delay 0.65
+    filter blur(0)
+    opacity 1
+    border-bottom solid 2px rgba(white, 0.125)
+    margin-bottom 0.8em
+    padding-bottom 0.4em
+    &:before
+      content ""
+      background-image url("logo.png")
+      font-size 1.5em
+      height 2.25em
+      width 3em
+      display block
+      background-size cover
