@@ -52,3 +52,16 @@
 		border2-bg:				rgba(255,255,255,0.075),
 		accent:					#4c5c96
 	);
+
+	$palette-original: $palette;
+
+	$palette: (
+		bg: #1e2156,
+		fg: white,
+		fg-bold: white,
+		border: rgba(white, 0.125),
+		border-bg: rgba(white, 0.025),
+		border2: rgba(white, 0.25),
+		border2-bg: rgba(white, 0.075),
+		accent: #1e4195
+	);
