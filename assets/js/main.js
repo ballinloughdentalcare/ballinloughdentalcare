@@ -23,6 +23,10 @@
 			$header = $('#header'),
 			$banner = $('#banner');
 
+		// Add a class to the header on the index page only
+		if (location.pathname === '/' || location.pathname === '/index.html')
+			$('#header').addClass('alt');
+
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
 
