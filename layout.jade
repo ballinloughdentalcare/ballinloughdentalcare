@@ -1,0 +1,89 @@
+doctype html
+html
+  head
+    block title
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    //if lte IE 8
+      script(src='assets/js/ie/html5shiv.js')
+    link(rel='stylesheet', href='assets/css/main.css')
+    //if lte IE 9
+      link(rel='stylesheet', href='assets/css/ie9.css')
+    //if lte IE 8
+      link(rel='stylesheet', href='assets/css/ie8.css')
+
+  body
+    #page-wrapper
+      header#header(class=headerType)
+        h1
+          a(href='/') Ballinlough Dental Care
+        nav
+          a(href='#menu') Menu
+      nav#menu
+        .inner
+          h2 Menu
+          ul.links
+            li: a(href='/') Home
+            li: a(href='about') About Us
+            li: a(href='treatments') Treatments
+            li: a(href='fees') Fees
+            li: a(href='contact') Contact Us
+          a.close(href='#') Close
+
+      block content
+
+      section#footer
+        .inner
+          h2.major Get in touch
+          p
+            | You can call us, email us, or contact us through Twitter,
+            | Facebook or Google+. If you&apos;re in the area, you can just drop
+            | in. You can also use the form below to email us right now.
+          form(method='post' action='//formspree.io/ballinloughdentalcare@gmail.com')
+            input(type='hidden' name='_next' value='//ballinloughdentalcare.ie/thanks')
+            input(type='hidden' name='_subject' value='ballinloughdentalcare.ie → New message')
+            input(type='text' name='_gotcha' style='display:none')
+            .field
+              label(for='name') Name
+              input#name(type='text' name='name' placeholder='Your Name' required)
+            .field
+              label(for='email') Email
+              input#email(type='email' name='email' placeholder='you@example.ie' required)
+            .field
+              label(for='message') Message
+              textarea#message(name='message' rows='4' placeholder='Your message here' required)
+            ul.actions
+              li
+                input(type='submit' value='Send Message')
+          ul.contact
+            li.fa-home
+              | Ballinlough Dental Care
+              br
+              | Boreenmanna Road
+              br
+              | Cork
+            li.fa-phone
+              a(href='tel:+353214965917') (021) 496-5917
+            li.fa-envelope
+              a(href='mailto:ballinloughdentalcare@gmail.com') ballinloughdentalcare@gmail.com
+            li.fa-twitter
+              a(href='https://twitter.com/ballinloughdent') @ballinloughdent
+            li.fa-facebook
+              a(href='https://www.facebook.com/ballinloughdentalcare') ballinloughdentalcare
+            li.fa-google-plus
+              a(href='https://plus.google.com/+BallinloughDentalCareCork') +BallinloughDentalCareCork
+          ul.copyright
+            li &copy; Ballinlough Dental Care.
+            li
+              | Site by: 
+              a(href='http://www.bjjb.org') JJ Buckley
+            li
+              | Design by: 
+              a(href='http://html5up.net') HTML5 UP
+    script(src='assets/js/skel.min.js')
+    script(src='assets/js/jquery.min.js')
+    script(src='assets/js/jquery.scrollex.min.js')
+    script(src='assets/js/util.js')
+    //if lte IE 8
+      script(src='assets/js/ie/respond.min.js')
+    script(src='assets/js/main.js')

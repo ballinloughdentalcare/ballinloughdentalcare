@@ -1,0 +1,76 @@
+extends layout
+
+block title
+  title Ballinlough Dental Care
+
+block content
+  section#banner
+    .inner.align-center
+      .logo
+        img(src='images/logo.png')
+      h2(hidden='') Ballinlough Dental Care
+      p.
+        Taking care of the dental health of the people of Ballinlough
+        and the surrounding area for over thirty years
+
+  section#wrapper
+    section#one.wrapper.spotlight.style1
+      .inner
+        a.image(href='about')
+          img(src='images/about.jpg', alt='')
+        .content
+          h2.major About Us
+          p Meet our team of dentists and dental nurses
+          a.special(href='about.html') Meet the team
+
+    section#two.wrapper.alt.spotlight.style2
+      .inner
+        a.image(href='treatments')
+          img(src='images/treatments.jpg', alt='')
+        .content
+          h2.major Treatments
+          p.
+            We provide restorative and cosmetic as well as general
+            denstistry and oral surgery
+          a.special(href='treatments') Learn more
+
+    section#three.wrapper.spotlight.style3
+      .inner
+        a.image(href='fees')
+          img(src='images/fees.jpg', alt='')
+        .content
+          h2.major Fees
+          p Our fees are competitive, and we accept all major cards
+          a.special(href='fees') See fees
+
+    section#four.wrapper.alt.style1
+      .inner#opening-hours
+        h2 Opening Hours
+        .table-wrapper
+          table
+            tbody
+              tr
+                td  Monday    
+                td  9:00am  -  5:30pm 
+              tr
+                td  Tuesday   
+                td  9:00am  -  8:00pm 
+              tr
+                td  Wednesday 
+                td  9:00am  -  8:00pm 
+              tr
+                td  Thursday  
+                td  9:30am  -  6:00pm 
+              tr
+                td  Friday    
+                td  9:30am  -  6:00pm 
+              tr
+                td  Saturday  
+                td  10:00am -  2:00pm 
+              tr
+                td  Sunday    
+                td
+                  em Closed
+        ul.actions
+          li
+            a.button(href='contact.html') Contact Us
