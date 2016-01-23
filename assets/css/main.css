@@ -1260,7 +1260,7 @@ body {
     min-width: 320px; } }
 body {
   background-color: #1e2156;
-  background-image: linear-gradient(to top, rgba(30, 33, 86, 0.8), rgba(30, 33, 86, 0.8)), url("../../images/bg.jpg");
+  background-image: linear-gradient(to top, rgba(30, 33, 86, 0.8), rgba(30, 33, 86, 0.8)), url("../../images/background.jpg");
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center; }
@@ -2340,7 +2340,7 @@ body.is-menu-visible #menu {
     #banner {
       padding: 7em 0 8.25em 0 ;
       background-color: #1e2156;
-      background-image: linear-gradient(to top, rgba(30, 33, 86, 0.8), rgba(30, 33, 86, 0.8)), url("../../images/bg.jpg");
+      background-image: linear-gradient(to top, rgba(30, 33, 86, 0.8), rgba(30, 33, 86, 0.8)), url("../../images/banner.jpg");
       background-size: auto, cover;
       background-position: center, center;
       margin-bottom: -6.5em; } }
@@ -2411,7 +2411,7 @@ body.is-menu-visible #menu {
   #wrapper > header {
     padding: 9em 0 6.25em 0 ;
     background-color: #1e2156;
-    background-image: linear-gradient(to top, rgba(30, 33, 86, 0.8), rgba(30, 33, 86, 0.8)), url("../../images/bg.jpg");
+    background-image: linear-gradient(to top, rgba(30, 33, 86, 0.8), rgba(30, 33, 86, 0.8)), url("../../images/background.jpg");
     background-size: auto, cover;
     background-position: center, 0% 30%;
     margin-bottom: -6.5em; } }
@@ -2646,7 +2646,7 @@ body.is-menu-visible #menu {
 @media screen and (max-width: 1280px) {
   #footer {
     background-color: #1e2156;
-    background-image: linear-gradient(to top, rgba(30, 33, 86, 0.8), rgba(30, 33, 86, 0.8)), url("../../images/bg.jpg");
+    background-image: linear-gradient(to top, rgba(30, 33, 86, 0.8), rgba(30, 33, 86, 0.8)), url("../../images/footer.jpg");
     background-size: auto, cover;
     background-position: center, center;
     margin-top: -6.5em;

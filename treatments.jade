@@ -2,6 +2,7 @@ extends layout
 
 block title
   title Treatments - Ballinlough Dental Care
+  style h4.clear { clear: right; }
 
 block content
   section#wrapper
@@ -10,13 +11,14 @@ block content
         h2 Treatments
 
         p
-          | We offer a range of treatments from general dentistry to
+          | We provide general, restorative and cosmetic dentistry, and
           | orthapedic surgery.
-    .wrapper
+
+    section.wrapper.style1
       .inner
         h3.major General Dentistry
-
         p
+          span.image.left: img(src='images/general-dentistry.jpg')
           | General dentistry involves the prevention, diagnosis and
           | treatment of a wide variety of conditions, disorders and
           | diseases affecting the teeth, gums and maxillofacial
@@ -32,10 +34,9 @@ block content
           | development of serious dental problems that can require
           | costly treatment. If you remain vigilant and visit your
           | dentist regularly, you can enjoy exceptional dental health.
-
         h4 Gum Treatment (Cleaning and Scaling)
-
         p
+          span.image.right: img(src='images/gum-treatment.jpg')
           | Gingivitis is a chronic inflammation of the gum tissue
           | (gingiva). Typically associated with poor oral hygiene,
           | gingivitis is the early stage periodontitis. Many people are
@@ -64,9 +65,11 @@ block content
           | recommend a medicated mouthwash to be used as a regular part
           | of your home regimen.
 
+    section.wrapper.alt.style2
+      .inner
         h3.major Restorative Dentistry
-
         p
+          span.image.left: img(src='images/restorative-dentistry.jpg')
           | Restoration is a term used in dentistry to describe
           | restoring the function of the tooth by replacing missing or
           | damaged tooth structure. Restorations are classified as
@@ -84,7 +87,6 @@ block content
             | porcelain, and zirconia.
         
         h4 Dentures
-
         p
           | A denture is a removable replacement for missing teeth
           | and surrounding tissues. Two types of denture are available;
@@ -92,8 +94,8 @@ block content
           | when all the teeth are missing while partial dentures are
           | used when some natural teeth remain.
 
+        span.image.right: img(src='images/full-dentures.jpg')
         h5 Full Dentures
-
         p
           | Full dentures can be either &quot;conventional&quot; or
           | &quot;immediate.&quot; Made after the teeth have been removed and the
@@ -111,8 +113,8 @@ block content
           | and generally should only be considered a temporary solution
           | until conventional dentures can be made.
 
+        span.image.right: img(src='images/partial-dentures.jpg')
         h5 Partial Dentures
-
         p
           | A removable partial denture or bridge usually consists of
           | replacement teeth attached to a pink or gum-colored plastic
@@ -122,10 +124,9 @@ block content
           | or lower jaw. A partial denture can be immediate or
           | conventional also.
 
-        h4 Crown and Bridgework
-
+        h4.clear Crown and Bridgework
+        span.image.right: img(src='images/dental-crown.jpg')
         h5 Dental Crowns
-
         p
           | Whether a crown is needed for tooth cracks, excessive
           | tooth decay, damaged tooth protection, teeth grinding,
@@ -137,6 +138,7 @@ block content
           | tooth material, much like a fitted cap.
 
         h5 Dental Bridges
+        span.image.right: img(src='images/dental-bridge.jpg')
         p
           | Dental bridges are used to replace missing teeth that
           | would otherwise adversely affect your mouth. The negative
@@ -151,9 +153,11 @@ block content
           | missing teeth, it prevents other teeth from changing
           | position.
 
+    section.wrapper.style3
+      .inner
         h3.major Cosmetic Dentistry
-
         p
+          span.image.left: img(src='images/cosmetic-dentistry.jpg')
           | While traditional dentistry focuses on oral hygiene and
           | preventing, diagnosing and treating oral disease, cosmetic
           | dentistry focuses on improving the appearance of a person&apos;s
@@ -168,8 +172,8 @@ block content
           | colour of your teeth, thus maintaining the natural
           | appearance of your teeth and smile.
 
-        h4 Composite Bonding
-
+        h4.clear(style='clear:left') Composite Bonding
+        span.image.right: img(src='images/composite-bonding.jpg')
         p
           | Chipped, broken, discoloured or decayed teeth may be
           | repaired or have their appearance corrected using a
@@ -182,28 +186,29 @@ block content
           | and the rest of your natural teeth to create a healthy,
           | bright smile.
 
-        h4 Teeth Whitening
-
-        p
+        h4.clear Teeth Whitening
+        span.image.right: img(src='images/teeth-whitening.jpg')
+        p.clearfix
           | Teeth whitening is perhaps the most commonly recommended
           | cosmetic dentistry procedure. Teeth are often stained from
           | smoking, food, drink (coffee, tea or red wine) or poor oral
           | hygiene. Bleaching the teeth can enhance the appearance of
           | your smile.
 
-        h4 Dental Veneers
-
-        p
+        h4.clear Dental Veneers
+        span.image.right: img(src='images/dental-veneers.jpg')
+        p(style='min-height: 170px')
           | Composite or porcelain laminates that are adhesively
           | bonded to the surface of a tooth to correct and repair chips
           | and cracks will improve a worn appearance or severe tooth
           | discolouration.
 
+    section.wrapper.alt.style4
+      .inner
         h3.major Oral Surgery
-
         h4 Tooth Extractions
-
         p
+          span.image.left: img(src='images/tooth-extraction.jpg')
           | Tooth extraction is the removal of a tooth from its
           | socket in the bone. Although permanent teeth were meant to
           | last a lifetime, there are a number of reasons why having a
