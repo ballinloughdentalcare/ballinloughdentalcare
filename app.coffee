@@ -2,7 +2,17 @@ express = require 'express'
 
 app = express()
 
+auth = (req, res, next) ->
+  credentials = require('basic-auth')(req)
+  { name, pass } = credentials if credentials?
+  return next() if "#{name}:#{pass}" is process.env.RESTRICTED_ACCESS
+  res.statusCode = 401
+  res.setHeader 'WWW-Authenticate', 'Basic realm="Ballinlough Dental Care"'
+  res.render '401'
+
 app.use require('morgan')('tiny')
+
+app.use(auth) if process.env.RESTRICTED_ACCESS
 
 app.use express.static('.')
 
