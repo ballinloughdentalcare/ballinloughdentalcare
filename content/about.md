@@ -3,7 +3,7 @@
 ## Diarmuid Twomey
 
 ![Diarmuid Twomey][dt]
-Diarmuid is a native of Ballincollig, Co. Cork. He graduated from University
+Diarmuid is a native of Ballincollig, Co. Cork 1. He graduated from University
 College Cork in 2003. He spent 5 years in London following graduation working
 in NHS and private practice. He returned to Ireland where he spent 5 years
 working in general practice in Galway. In March 2014 he returned to Cork to
