@@ -1,6 +1,6 @@
-# Treatments 1
+# Treatments 
 
-## General Dentistry 1
+## General Dentistry 
 
 General dentistry involves the prevention, diagnosis and treatment of a wide
 variety of conditions, disorders and diseases affecting the teeth, gums and
