@@ -1,0 +1,19 @@
+{
+  "name": "ballinloughdentalcare",
+  "description": "Environment variables for Heroku",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+    "redistogo",
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
