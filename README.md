@@ -1,3 +1,3 @@
 # Ballinlough Dental Care
 
-A website.
+A dentist's website.
