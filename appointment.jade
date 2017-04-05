@@ -1,0 +1,48 @@
+block title
+
+Book A Free Checkup And Cleaning
+
+
+
+Block Content
+
+h2.major Get in touch
+          p
+            | You can call us, email us, or contact us through Twitter,
+            | Facebook or Google+. If you&apos;re in the area, you can just drop
+            | in. You can also use the form below to email us right now.
+          form(method='post' action='//formspree.io/ballinloughdentalcare@gmail.com')
+            input(type='hidden' name='_next' value='//ballinloughdentalcare.ie/thanks')
+            input(type='hidden' name='_subject' value='ballinloughdentalcare.ie → New message')
+            input(type='text' name='_gotcha' style='display:none')
+            .field
+              label(for='name') Name
+              input#name(type='text' name='name' placeholder='Your Name' required)
+            .field
+              label(for='email') Email
+              input#email(type='email' name='email' placeholder='you@example.ie' required)
+            .field
+              label(for='message') Message
+              textarea#message(name='message' rows='4' placeholder='Your message here' required)
+            ul.actions
+              li
+                input(type='submit' value='Send Message')
+          ul.contact
+            li.fa-home
+              | Ballinlough Dental Care
+              br
+              | Wallaces Avenue
+              br
+              | Boreenmanna Road
+              br
+              | Cork
+            li.fa-phone
+              a(href='tel:+353214965917') (021) 496-5917
+            li.fa-envelope
+              a(href='mailto:ballinloughdentalcare@gmail.com') ballinloughdentalcare@gmail.com
+            li.fa-twitter
+              a(href='https://twitter.com/ballinloughdent') @ballinloughdent
+            li.fa-facebook
+              a(href='https://www.facebook.com/ballinloughdentalcare') ballinloughdentalcare
+            li.fa-google-plus
+              a(href='https://plus.google.com/+BallinloughDentalCareCork') +BallinloughDentalCareCork
