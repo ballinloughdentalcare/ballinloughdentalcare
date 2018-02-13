@@ -1,43 +1,12 @@
-doctype html
-html
-  head
-    block title
-    meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1')
-    meta(name='author', content='bjjb')
-    //if lte IE 8
-      script(src='assets/js/ie/html5shiv.js')
-    link(rel='stylesheet', href='assets/css/main.css')
-    //if lte IE 9
-      link(rel='stylesheet', href='assets/css/ie9.css')
-    //if lte IE 8
-      link(rel='stylesheet', href='assets/css/ie8.css')
-      
+extends layout
+
+block title
+title Book A Free Checkup And Cleaning
 
 
-  body
-    #page-wrapper
-      header#header(class=headerType)
-        h1
-          a(href='/') Ballinlough Dental Care
-        nav
-          a(href='#menu') Menu
-      nav#menu
-        .inner
-          h2 Menu
-          ul.links
-            li: a(href='/') Home
-            li: a(href='about') About Us
-            li: a(href='treatments') Treatments
-            li: a(href='fees') Fees
-            li: a(href='contact') Contact Us
-          a.close(href='#') Close
+block Content
 
-      block content
-
-      section#footer
-        .inner
-          h2.major Get in touch
+h2.major Get in touch
           p
             | You can call us, email us, or contact us through Twitter,
             | Facebook or Google+. If you&apos;re in the area, you can just drop
@@ -77,18 +46,3 @@ html
               a(href='https://www.facebook.com/ballinloughdentalcare') ballinloughdentalcare
             li.fa-google-plus
               a(href='https://plus.google.com/+BallinloughDentalCareCork') +BallinloughDentalCareCork
-          ul.copyright
-            li &copy; Ballinlough Dental Care.
-            li
-              | Site by: 
-              a(href='http://www.bjjb.org') JJ Buckley
-            li
-              | Design by: 
-              a(href='http://html5up.net') HTML5 UP
-    script(src='assets/js/skel.min.js')
-    script(src='assets/js/jquery.min.js')
-    script(src='assets/js/jquery.scrollex.min.js')
-    script(src='assets/js/util.js')
-    //if lte IE 8
-      script(src='assets/js/ie/respond.min.js')
-    script(src='assets/js/main.js')
