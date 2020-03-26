@@ -1,0 +1,31 @@
+aside.notice {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 5em;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 20000;
+}
+
+aside.notice[hidden] {
+  z-index: 0;
+  visiblity: hidden;
+}
+
+aside img {
+  display: block;
+  margin: auto;
+}
+
+aside.notice p {
+  padding: 2em;
+}
+
+aside.notice a.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em;
+}
