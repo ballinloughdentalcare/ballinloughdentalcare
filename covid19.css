@@ -1,0 +1,42 @@
+aside.notice {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.85);
+	z-index: 20000;
+}
+
+aside.notice[hidden] {
+  z-index: 0;
+  visiblity: hidden;
+}
+
+aside img {
+  display: block;
+  margin: auto;
+  max-width: 60%;
+  margin-top: 1em;
+}
+
+aside.notice p {
+  padding: 1em 2em;
+  max-width: 60em;
+  margin: auto;
+}
+
+aside.notice a.close {
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	background: rgba(100,100,100,0.5);
+	border-radius: 2em;
+	height: 2em;
+	width: 2em;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	line-height: 2em;
+  box-shadow: 0 0 1px white;
+}

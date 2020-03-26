@@ -12,8 +12,6 @@ html
       link(rel='stylesheet', href='assets/css/ie9.css')
     //if lte IE 8
       link(rel='stylesheet', href='assets/css/ie8.css')
-      
-
 
   body
     #page-wrapper
@@ -81,10 +79,11 @@ html
             li &copy; Ballinlough Dental Care.
             li
               | Site by: 
-              a(href='http://www.bjjb.org') JJ Buckley
+              a(href='https://bjjbuckley.com') B. J. J. Buckley
             li
               | Design by: 
               a(href='http://html5up.net') HTML5 UP
+
     script(src='assets/js/skel.min.js')
     script(src='assets/js/jquery.min.js')
     script(src='assets/js/jquery.scrollex.min.js')
@@ -92,3 +91,18 @@ html
     //if lte IE 8
       script(src='assets/js/ie/respond.min.js')
     script(src='assets/js/main.js')
+
+    link(rel='stylesheet' href='covid19.css')
+    script(src='covid19.js')
+    aside.notice
+      a.close(href='#') X
+      img.logo(src='images/logo.png')
+      p
+        | Due to the Covid-19 virus and the risks involved we have had to make
+        | the difficult decision to close the practice temporarily until the
+        | situation is resolved. We will continue to see our patients for
+        | emergencies so please
+        |  #[a(href='tel:+353214965917') leave us a voicemail] or
+        |  #[a(href='mailto:ballinloughdentalcare@gmail.com') send us an email]
+        | , and we will get back to you as soon as possible to help you. Thank
+        | you for your understanding.
