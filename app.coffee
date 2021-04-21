@@ -17,7 +17,7 @@ app.use(auth) if process.env.RESTRICTED_ACCESS
 
 app.use express.static('.')
 
-app.set 'view engine', 'jade'
+app.set 'view engine', 'pug'
 app.set 'views', '.'
 
 app.get /^\/(index.html)?$/,    (req, res) -> res.render 'index'

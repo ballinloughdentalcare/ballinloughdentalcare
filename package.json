@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "build": "jade *.jade",
+    "build": "cake build",
     "start": "coffee app.coffee",
     "test": "mocha --require coffeescript/register test/**/*.coffee"
   },
@@ -15,8 +15,8 @@
     "coffeescript": "^2.5.1",
     "express": "^4.17.1",
     "glob": "^7.1.6",
-    "jade": "^1.11.0",
     "morgan": "^1.10.0",
+    "pug": "^3.0.2",
     "stylus": "^0.54.8"
   },
   "devDependencies": {
