@@ -1,6 +1,7 @@
 {
   "name": "ballinloughdentalcare",
   "description": "Environment variables for Heroku",
+  "stack": "heroku-20",
   "scripts": {
   },
   "env": {
