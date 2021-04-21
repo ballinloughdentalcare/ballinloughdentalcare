@@ -1,5 +1,13 @@
 task 'build', 'build the website', ->
-  run 'node_modules/.bin/jade *.jade'
+  { writeFile } = require 'fs'
+  { compileFile } = require 'pug'
+  { basename, extname } = require 'path'
+  glob = require 'glob'
+  glob '*.pug', (err, files) ->
+    files.forEach (f) ->
+      o = "#{basename(f)}.html"
+      c = compileFile(f)
+      writeFile(o, c(), 'utf8', -> console.log("#{f} → #{o} ✓"))
 
 task 'test', 'run tests', ->
   run 'node_modules/.bin/mocha'
