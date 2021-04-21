@@ -1,21 +1,25 @@
 {
   "name": "ballinloughdentalcare",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
-    "build": "node_modules/.bin/jade *.jade",
-    "start": "node_modules/.bin/coffee app.coffee",
-    "test": "node_modules/.bin/mocha"
+    "build": "jade *.jade",
+    "start": "coffee app.coffee",
+    "test": "mocha --require coffeescript/register test/**/*.coffee"
   },
   "engines": {
-    "node": "7.7.x"
+    "node": "14.x.x"
   },
   "dependencies": {
-    "basic-auth": "^1.0.0",
-    "coffee-script": "^1.7.1",
-    "express": "^4.2.0",
-    "glob": "^6.0.4",
-    "jade": "^1.9.2",
-    "morgan": "^1.3.1"
+    "basic-auth": "^2.0.1",
+    "coffeescript": "^2.5.1",
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "jade": "^1.11.0",
+    "morgan": "^1.10.0",
+    "stylus": "^0.54.8"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2"
   }
 }
