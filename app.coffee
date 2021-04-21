@@ -1,3 +1,4 @@
+# Runs a server, which renders jade, and serves static files.
 express = require 'express'
 
 app = express()
