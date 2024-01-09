@@ -1,0 +1,26 @@
+extends layout
+
+block title
+  title Thank you - Ballinlough Dental Care
+
+block content
+  section#wrapper
+    header
+      .inner
+        h2 Thank you
+        p
+            | We'll respond A.S.A.P.
+    section#one.wrapper.spotlight.alt.style1
+      .inner
+        span.image: img(src='images/thanks.jpg')
+        .content
+          h2.major Your query has been emailed to us
+          p We'll try to get back to you as soon as possible.
+          p
+            | Our opening hours are listed on our home-page
+            | (you'll be redirected there momentarily, or you can click the
+            | button below to see them.)
+          a.special(href='/#opening-hours') Opening hours
+
+    script.
+      setTimeout(function() { location.replace('/') }, 10000)

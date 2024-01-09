@@ -1,0 +1,25 @@
+{
+  "name": "ballinloughdentalcare",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "build": "cake build",
+    "start": "coffee app.coffee",
+    "test": "mocha --require coffeescript/register test/**/*.coffee"
+  },
+  "engines": {
+    "node": "20.x.x"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "coffeescript": "^2.5.1",
+    "express": "^4.17.3",
+    "glob": "^7.1.6",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
+    "stylus": "^0.54.8"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}

@@ -1,0 +1,84 @@
+extends layout
+
+block title
+  title Dentist In Cork - Ballinlough Dental Care
+  
+  
+
+block content
+  script.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-96851255-1', 'auto'); ga('send', 'pageview');
+  section#banner
+    .inner.align-center
+      .logo
+        img(src='images/logo.png')
+      h2(hidden='') Ballinlough Dental Care
+      p.
+        Taking care of the dental health of the people of Ballinlough, Ballintemple, Douglas
+        and the surrounding area of Cork City for over thirty years.
+        
+      h3.
+      b.
+        Free Dental Checkups And Cleaning For Children Under The Age Of 5
+      
+      a.special(href='contact.html') Book Today
+        
+    
+  section#wrapper
+    section#one.wrapper.spotlight.style1
+      .inner
+        a.image(href='about.html')
+          img(src='images/about.jpg', alt='')
+        .content
+          h2.major About Us
+          p Meet our team of dentists and dental nurses
+          a.special(href='about.html') Meet the team
+
+    section#two.wrapper.alt.spotlight.style2
+      .inner
+        a.image(href='treatments.html')
+          img(src='images/treatments.jpg', alt='')
+        .content
+          h2.major Treatments
+          p.
+            We are a general practice providing restorative and cosmetic
+            dentistry as well as oral surgery.
+          a.special(href='treatments.html') Learn more
+
+    section#three.wrapper.spotlight.style3
+      .inner
+        a.image(href='fees.html')
+          img(src='images/fees.jpg', alt='')
+        .content
+          h2.major Fees
+          p Our fees are competitive, and we accept all major cards
+          a.special(href='fees.html') See fees
+
+    section#four.wrapper.alt.style1
+      .inner#opening-hours
+        h2 Opening Hours
+        .table-wrapper
+          table
+            tbody
+              tr
+                td  Monday    
+                td  9:30am  -  5:30pm 
+              tr
+                td  Tuesday   
+                td  9:30am  -  7:00pm 
+              tr
+                td  Wednesday 
+                td  9:30am  -  5:30pm 
+              tr
+                td  Thursday  
+                td  9:30am  -  7:00pm 
+              tr
+                td  Friday    
+                td  8:00am  -  3:00pm
+
+        p Lunchtime appointments available
+        p Evenings and early mornings by appointment only.
+
+        ul.actions
+          li
+            a.button(href='contact.html') Contact Us
