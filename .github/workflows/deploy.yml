@@ -3,8 +3,9 @@ name: Deploy Site
 on:
   push:
     branches:
-    - $default-branch
-  workflow_dispatch:
+    - master
+  # Uncomment this to make the workflow manual
+  #workflow_dispatch:
 
 permissions:
   contents: read
