@@ -1,6 +1,6 @@
 {
   "name": "ballinloughdentalcare",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "build": "cake build",
@@ -8,7 +8,7 @@
     "test": "mocha --require coffeescript/register test/**/*.coffee"
   },
   "engines": {
-    "node": "14.x.x"
+    "node": "20.x.x"
   },
   "dependencies": {
     "basic-auth": "^2.0.1",
